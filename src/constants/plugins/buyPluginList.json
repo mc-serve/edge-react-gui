@@ -1,0 +1,417 @@
+[
+  {
+    "id": "bitsofgold",
+    "pluginId": "bitsofgold",
+    "paymentTypes": ["bank"],
+    "title": "Israeli Bank Transfer",
+    "description": "Fee: 5.95%\nSettlement: 1 - 48 hours",
+    "partnerIconPath": "bits-of-gold-logo-sm.png",
+    "forCountries": ["IL"],
+    "cryptoCodes": ["BTC", "ETH"],
+    "paymentTypeLogoKey": "bank",
+    "deepPath": "/order/buy",
+    "deepQuery": {
+      "order_id": "null",
+      "page": "0"
+    }
+  },
+  {
+    "id": "creditcard",
+    "pluginId": "creditcard",
+    "description": "Fee: 5-7%\nSettlement: 10 - 30 minutes",
+    "paymentType": "credit",
+    "paymentTypes": ["credit"],
+    "title": "Credit and Debit Card",
+    "forCountries": [
+      "AD", "AE", "AF", "AG", "AI", "AL", "AM", "AO", "AQ", "AR",
+      "AS", "AT", "AU", "AW", "AZ", "BA", "BB", "BD", "BE", "BF",
+      "BG", "BH", "BI", "BJ", "BL", "BM", "BN", "BO", "BQ", "BR",
+      "BT", "BV", "BW", "BY", "BZ", "CA", "CC", "CD", "CF", "CG",
+      "CH", "CI", "CK", "CL", "CM", "CN", "CO", "CR", "CV", "CW",
+      "CX", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC",
+      "EE", "EG", "EH", "ER", "ES", "FI", "FJ", "FK", "FM", "FO",
+      "FR", "GA", "GB", "GD", "GE", "GF", "GG", "GH", "GI", "GL",
+      "GM", "GN", "GP", "GQ", "GR", "GS", "GT", "GU", "GW", "GY",
+      "HK", "HM", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IM",
+      "IN", "IO", "IQ", "IS", "IT", "JE", "JM", "JO", "JP", "KE", "KG",
+      "KH", "KI", "KM", "KN", "KR", "KW", "KY", "KZ", "LA", "LB",
+      "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "LY", "MA",
+      "MC", "MD", "ME", "MF", "MG", "MH", "MK", "ML", "MM", "MN",
+      "MO", "MP", "MQ", "MR", "MS", "MT", "MU", "MV", "MW", "MX",
+      "MY", "MZ", "NA", "NC", "NE", "NF", "NG", "NI", "NL", "NO",
+      "NP", "NR", "NU", "NZ", "OM", "PA", "PE", "PF", "PG", "PH",
+      "PL", "PM", "PN", "PR", "PS", "PT", "PW", "PY", "QA", "RE",
+      "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SD", "SE", "SG",
+      "SH", "SI", "SJ", "SK", "SL", "SM", "SN", "SO", "SR", "SS",
+      "ST", "SV", "SX", "SZ", "TC", "TD", "TF", "TG", "TH", "TJ",
+      "TK", "TL", "TM", "TO", "TR", "TV", "TW", "TZ", "UA", "UG",
+      "UM", "US", "UY", "UZ", "VA", "VC", "VE", "VG", "VI", "VN",
+      "VU", "WF", "WS", "YT", "ZA", "ZM", "ZW"
+    ],
+    "cryptoCodes": [],
+    "paymentTypeLogoKey": "credit"
+  },
+  {
+    "id": "fasterpayments",
+    "pluginId": "fasterpayments",
+    "paymentType": "fasterpayments",
+    "paymentTypes": ["fasterpayments"],
+    "description": "Fee: ~1.5%\nSettlement: 1 hour - 24 hours",
+    "title": "Faster Payments",
+    "forCountries": [],
+    "cryptoCodes": [],
+    "paymentTypeLogoKey": "bank"
+  },
+  {
+    "id": "iach",
+    "pluginId": "iach",
+    "paymentType": "iach",
+    "paymentTypes": ["iach"],
+    "title": "Instant ACH Bank Transfer",
+    "description": "Fee: ~2%\nSettlement: ~5 minutes\nLimit $1000",
+    "forCountries": ["US"],
+    "notStateProvinces": { "US": ["AK", "AR", "CT", "NC", "NY", "TX"] },
+    "cryptoCodes": [],
+    "paymentTypeLogoKey": "bank"
+  },
+  {
+    "id": "ideal",
+    "pluginId": "ideal",
+    "paymentType": "ideal",
+    "paymentTypes": ["ideal"],
+    "title": "iDEAL",
+    "description": "Fee: 4%\nSettlement: Instant - 24 hours",
+    "forCountries": ["NL"],
+    "cryptoCodes": [],
+    "paymentTypeLogoKey": "ideal"
+  },
+  {
+    "id": "interac",
+    "pluginId": "interac",
+    "paymentType": "interac",
+    "paymentTypes": ["interac"],
+    "title": "Interac e-Transfer",
+    "description": "Fee: 4-5%\nSettlement: 1 - 2 days",
+    "forCountries": ["CA"],
+    "cryptoCodes": [],
+    "paymentTypeLogoKey": "interac"
+  },
+  {
+    "id": "libertyx",
+    "pluginId": "libertyx",
+    "paymentTypes": ["cash", "credit"],
+    "description": "Fee: 3-8%\nSettlement: Instant",
+    "title": "In-person Cash and Debit Card",
+    "partnerIconPath": "libertyXlogo.png",
+    "forCountries": ["US"],
+    "cryptoCodes": ["BTC"],
+    "paymentTypeLogoKey": "cash",
+    "deepPath": "/"
+  },
+  {
+    "id": "payid",
+    "pluginId": "payid",
+    "paymentType": "payid",
+    "paymentTypes": ["payid"],
+    "title": "PayID",
+    "description": "Fee: 4-5%\nSettlement: Instant",
+    "forCountries": ["AU"],
+    "cryptoCodes": [],
+    "paymentTypeLogoKey": "payid"
+  },
+  {
+    "id": "paypal",
+    "pluginId": "paypal",
+    "paymentType": "paypal",
+    "paymentTypes": ["paypal"],
+    "title": "Paypal",
+    "description": "Fee: ~5%\nSettlement: 5 min - 24 hours",
+    "forCountries": [
+      "AE", "AR", "AT", "AU", "BE", "BR", "CA", "CH", "CL", "CO",
+      "CZ", "DE", "DK", "EG", "ES", "FI", "FR", "GH", "GR", "HK",
+      "HU", "IE", "IN", "IT", "JP", "KE", "KR", "MX", "MY",
+      "NG", "NL", "NO", "NZ", "PE", "PH", "PL", "PT", "RU", "SA",
+      "SE", "SG", "TH", "TR", "TZ", "US", "VN", "ZA"
+    ],
+    "cryptoCodes": [],
+    "paymentTypeLogoKey": "paypal"
+  },
+  {
+    "id": "pix",
+    "pluginId": "pix",
+    "paymentType": "pix",
+    "paymentTypes": ["pix"],
+    "description": "Fee: ~3%\nSettlement: 5 min - 24 hours",
+    "title": "PIX",
+    "// Do not enable until we have a Pix logo": "",
+    "forCountries": ["BR"],
+    "cryptoCodes": [],
+    "paymentTypeLogoKey": "pix"
+  },
+  {
+    "id": "pse",
+    "pluginId": "pse",
+    "paymentType": "pse",
+    "paymentTypes": ["pse"],
+    "title": "PSE Payment",
+    "description": "Fee: ~5%\nSettlement: 5 min - 24 hours",
+    "forCountries": ["CO"],
+    "cryptoCodes": [],
+    "paymentTypeLogoKey": "bank"
+  },
+  {
+    "id": "revolut",
+    "pluginId": "revolut",
+    "paymentType": "revolut",
+    "paymentTypes": ["revolut"],
+    "title": "Revolut",
+    "description": "Fee: ~5%\nSettlement: 5 min - 24 hours",
+    "forCountries": [
+      "AU", "BR", "AT", "BE", "BG", "CY", "CZ", "DE", "DK", "EE", "ES", "FI",
+      "FR", "GR", "HR", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV",
+      "MT", "NL", "NO", "PL", "PT", "RO", "SE", "SI", "SK", "JP", "NZ",
+      "SG", "CH", "GB", "US", "IO", "IM", "JE", "GG", "GF", "GP", "YT",
+      "MQ", "RE", "MF"
+    ],
+    "cryptoCodes": [],
+    "paymentTypeLogoKey": "revolut"
+  },
+  {
+    "id": "sepa",
+    "pluginId": "sepa",
+    "forCountries": [
+      "AT", "BE", "BG", "CH", "CZ", "DE", "DK", "EE", "ES", "FI",
+      "FR", "GB", "GR", "HR", "HU", "IE", "IT", "LI", "LT", "LU",
+      "LV", "NL", "NO", "PL", "PT", "RO", "SE", "SI", "SK", "SM"
+    ],
+    "paymentType": "sepa",
+    "paymentTypes": ["sepa"],
+    "description": "Fee: 1.55%\nSettlement: 1 - 2 days",
+    "title": "SEPA Bank Transfer",
+    "paymentTypeLogoKey": "bank"
+  },
+  {
+    "id": "spei",
+    "pluginId": "spei",
+    "paymentType": "spei",
+    "paymentTypes": ["spei"],
+    "title": "SPEI Bank Transfer",
+    "description": "Fee: ~3.5%\nSettlement: 5 min - 24 hours",
+    "forCountries": ["MX"],
+    "cryptoCodes": [],
+    "paymentTypeLogoKey": "bank"
+  },
+  {
+    "id": "turkishbank",
+    "pluginId": "turkishbank",
+    "paymentType": "turkishbank",
+    "paymentTypes": ["turkishbank"],
+    "title": "Turkish Bank Transfer",
+    "description": "Fee: 8-9%\nSettlement: Instant - 1 hour",
+    "forCountries": [],
+    "cryptoCodes": [],
+    "paymentTypeLogoKey": "bank"
+  },
+  {
+    "id": "venmo",
+    "pluginId": "venmo",
+    "paymentType": "venmo",
+    "paymentTypes": ["venmo"],
+    "title": "Venmo",
+    "description": "Fee: ~5%\nSettlement: 5 min - 24 hours",
+    "forCountries": ["US"],
+    "cryptoCodes": [],
+    "paymentTypeLogoKey": "venmo"
+  },
+  {
+    "id": "wire",
+    "pluginId": "wire",
+    "paymentType": "wire",
+    "paymentTypes": ["wire"],
+    "title": "Bank Wire Transfer",
+    "description": "Fee: ~2%\nSettlement: ~5 minutes\nLimit $5,000,000",
+    "forCountries": [],
+    "notStateProvinces": { "US": ["AK", "AR", "CT", "NC", "NY", "TX", "FL"] },
+    "cryptoCodes": [],
+    "paymentTypeLogoKey": "bank"
+  },
+  {
+    "id": "xanpool",
+    "pluginId": "xanpool",
+    "paymentTypes": ["bank"],
+    "description": "Fee: 1.5% / Settlement: Instant",
+    "title": "PayNow",
+    "partnerIconPath": "xanpool-logo.png",
+    "forCountries": [],
+    "paymentTypeLogoKey": "paynow",
+    "deepQuery": {
+      "transactionType": "buy",
+      "currency": "SGD"
+    }
+  },
+  "----- Sorting -----",
+  {
+    "id": "fasterpayments",
+    "sortIndex": 10
+  },
+  {
+    "id": "iach",
+    "sortIndex": 10
+  },
+  {
+    "id": "ideal",
+    "sortIndex": 10
+  },
+  {
+    "id": "interac",
+    "sortIndex": 10
+  },
+  {
+    "id": "payid",
+    "sortIndex": 10
+  },
+  {
+    "id": "pix",
+    "sortIndex": 10
+  },
+  {
+    "id": "paypal",
+    "sortIndex": 15
+  },
+  {
+    "id": "pse",
+    "sortIndex": 10
+  },
+  {
+    "id": "revolut",
+    "sortIndex": 15
+  },
+  {
+    "id": "turkishbank",
+    "sortIndex": 10
+  },
+  {
+    "id": "spei",
+    "sortIndex": 10
+  },
+  {
+    "id": "applepay",
+    "sortIndex": 20
+  },
+  {
+    "id": "googlepay",
+    "sortIndex": 20
+  },
+  {
+    "id": "creditcard",
+    "sortIndex": 30
+  },
+  {
+    "id": "bitsofgold",
+    "sortIndex": 10
+  },
+  {
+    "id": "sepa",
+    "sortIndex": 10
+  },
+  {
+    "id": "libertyx",
+    "sortIndex": 50
+  },
+  {
+    "id": "venmo",
+    "sortIndex": 10
+  },
+  {
+    "id": "wire",
+    "sortIndex": 40
+  },
+  "----- iOS specifics -----",
+  {
+    "id": "applepay",
+    "forPlatform": "ios",
+    "pluginId": "creditcard",
+    "paymentType": "applepay",
+    "description": "Fee: 5-7%\nSettlement: 10 - 30 minutes",
+    "paymentTypes": ["credit"],
+    "title": "",
+    "customTitleKey": "applepay",
+    "forCountries": [
+      "AD", "AE", "AF", "AG", "AI", "AL", "AM", "AO", "AQ", "AR",
+      "AS", "AT", "AU", "AW", "AZ", "BA", "BB", "BD", "BE", "BF",
+      "BG", "BH", "BI", "BJ", "BL", "BM", "BN", "BO", "BQ", "BR",
+      "BT", "BV", "BW", "BY", "BZ", "CA", "CC", "CD", "CF", "CG",
+      "CH", "CI", "CK", "CL", "CM", "CN", "CO", "CR", "CV", "CW",
+      "CX", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC",
+      "EE", "EG", "EH", "ER", "ES", "FI", "FJ", "FK", "FM", "FO",
+      "FR", "GA", "GB", "GD", "GE", "GF", "GG", "GH", "GI", "GL",
+      "GM", "GN", "GP", "GQ", "GR", "GS", "GT", "GU", "GW", "GY",
+      "HK", "HM", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IM",
+      "IN", "IO", "IQ", "IS", "IT", "JE", "JM", "JO", "JP", "KE", "KG",
+      "KH", "KI", "KM", "KN", "KR", "KW", "KY", "KZ", "LA", "LB",
+      "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "LY", "MA",
+      "MC", "MD", "ME", "MF", "MG", "MH", "MK", "ML", "MM", "MN",
+      "MO", "MP", "MQ", "MR", "MS", "MT", "MU", "MV", "MW", "MX",
+      "MY", "MZ", "NA", "NC", "NE", "NF", "NG", "NI", "NL", "NO",
+      "NP", "NR", "NU", "NZ", "OM", "PA", "PE", "PF", "PG", "PH",
+      "PL", "PM", "PN", "PR", "PS", "PT", "PW", "PY", "QA", "RE",
+      "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SD", "SE", "SG",
+      "SH", "SI", "SJ", "SK", "SL", "SM", "SN", "SO", "SR", "SS",
+      "ST", "SV", "SX", "SZ", "TC", "TD", "TF", "TG", "TH", "TJ",
+      "TK", "TL", "TM", "TO", "TR", "TV", "TW", "TZ", "UA", "UG",
+      "UM", "US", "UY", "UZ", "VA", "VC", "VE", "VG", "VI", "VN",
+      "VU", "WF", "WS", "YT", "ZA", "ZM", "ZW"
+    ],
+    "cryptoCodes": [],
+    "paymentTypeLogoKey": "applepay"
+  },
+  "----- Android Specifics -----",
+  {
+    "id": "googlepay",
+    "forPlatform": "android",
+    "pluginId": "creditcard",
+    "paymentType": "googlepay",
+    "description": "Fee: 5-7%\nSettlement: 10 - 30 minutes",
+    "paymentTypes": ["credit"],
+    "title": "Google Pay",
+    "forCountries": [
+      "AD", "AE", "AF", "AG", "AI", "AL", "AM", "AO", "AQ", "AR",
+      "AS", "AT", "AU", "AW", "AZ", "BA", "BB", "BD", "BE", "BF",
+      "BG", "BH", "BI", "BJ", "BL", "BM", "BN", "BO", "BQ", "BR",
+      "BT", "BV", "BW", "BY", "BZ", "CA", "CC", "CD", "CF", "CG",
+      "CH", "CI", "CK", "CL", "CM", "CN", "CO", "CR", "CV", "CW",
+      "CX", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC",
+      "EE", "EG", "EH", "ER", "ES", "FI", "FJ", "FK", "FM", "FO",
+      "FR", "GA", "GB", "GD", "GE", "GF", "GG", "GH", "GI", "GL",
+      "GM", "GN", "GP", "GQ", "GR", "GS", "GT", "GU", "GW", "GY",
+      "HK", "HM", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IM",
+      "IN", "IO", "IQ", "IS", "IT", "JE", "JM", "JO", "JP", "KE", "KG",
+      "KH", "KI", "KM", "KN", "KR", "KW", "KY", "KZ", "LA", "LB",
+      "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "LY", "MA",
+      "MC", "MD", "ME", "MF", "MG", "MH", "MK", "ML", "MM", "MN",
+      "MO", "MP", "MQ", "MR", "MS", "MT", "MU", "MV", "MW", "MX",
+      "MY", "MZ", "NA", "NC", "NE", "NF", "NG", "NI", "NL", "NO",
+      "NP", "NR", "NU", "NZ", "OM", "PA", "PE", "PF", "PG", "PH",
+      "PL", "PM", "PN", "PR", "PS", "PT", "PW", "PY", "QA", "RE",
+      "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SD", "SE", "SG",
+      "SH", "SI", "SJ", "SK", "SL", "SM", "SN", "SO", "SR", "SS",
+      "ST", "SV", "SX", "SZ", "TC", "TD", "TF", "TG", "TH", "TJ",
+      "TK", "TL", "TM", "TO", "TR", "TV", "TW", "TZ", "UA", "UG",
+      "UM", "US", "UY", "UZ", "VA", "VC", "VE", "VG", "VI", "VN",
+      "VU", "WF", "WS", "YT", "ZA", "ZM", "ZW"
+    ],
+    "cryptoCodes": [],
+    "paymentTypeLogoKey": "googlepay"
+  },
+  "----- Country Specifics -----",
+  {
+    "id": "sepa",
+    "forCountries": ["GB"],
+    "sortIndex": 50
+  },
+  {
+    "id": "revolut",
+    "forCountries": ["US"],
+    "sortIndex": 30
+  }
+]

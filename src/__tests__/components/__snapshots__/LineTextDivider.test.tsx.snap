@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LineTextDivider should render with loading props 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "flexGrow": 1,
+      "justifyContent": "space-between",
+      "marginVertical": 11,
+      "paddingHorizontal": 11,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "borderBottomColor": "rgba(255, 255, 255, .1)",
+        "borderBottomWidth": 1,
+        "flex": 1,
+      }
+    }
+  />
+  <Text
+    adjustsFontSizeToFit={true}
+    minimumFontScale={0.65}
+    numberOfLines={1}
+    style={
+      [
+        {
+          "color": "#FFFFFF",
+          "fontFamily": "Quicksand-Regular",
+          "fontSize": 22,
+          "includeFontPadding": false,
+        },
+        [
+          {
+            "color": "#3dd9f4",
+            "fontFamily": "Quicksand-Medium",
+            "fontSize": 22,
+            "paddingHorizontal": 17,
+          },
+          {
+            "textTransform": "lowercase",
+          },
+        ],
+        null,
+      ]
+    }
+  >
+    string
+  </Text>
+  hello
+  <View
+    style={
+      {
+        "borderBottomColor": "rgba(255, 255, 255, .1)",
+        "borderBottomWidth": 1,
+        "flex": 1,
+      }
+    }
+  />
+</View>
+`;

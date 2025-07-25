@@ -1,0 +1,122 @@
+v1.9.0
+* Migliorata la stabilità quando si entra e si esce dallo sfondo
+* Integra Safello per l'acquisto e la vendita in Europa
+* Integra Bits of Gold per vendere verso conti bancari Israeliani e Europei
+* Integra CoinSwitch come cambio valuta
+
+v1.8.7
+* FoxExchange e Godex, 2 nuovi cambio valuta partner che ti permettono di convertire le tue cripto in altre cripto!
+* Importa chiavi private XRP e XLM
+* WebSockets- Migliorata la connettività e la sincronizzazione anche quando si utilizza VPN
+
+v1.8.5
+* Wyre Sell - Vendi cripto con il tuo conto bancario
+* Nuove e migliorate visualizzazioni nella schermata di login
+* Impedisci a FaceID di lanciare automaticamente il login
+
+v1.8.4
+* Vendita tramite Simplex - Vendi le cripto e ricevi le fiat sulla tua carta di credito o prepagata
+* Aggiunto Ravencoin
+
+v1.8.1
+
+* La versione Android SDK minima richiesta è 23+ (Android 6)
+
+v1.8.0
+
+* Aggiornamento nativo a React + correzioni all'interfaccia utente
+* Quote fisse preferite rispetto a quelle sovrastimate
+
+v1.7.4
+
+* Beta vendita Simplex
+* Avvisa gli utenti riguardo commissioni elevate
+
+v1.7.3
+
+* Patch per evitare problemi di commissione BTC
+
+v1.7.2
+
+* Corretti i problemi prestazionali al login
+* Corretto l'errore di split BCH/BSV
+* Vari aggiornamenti visuali e testuali
+* Aggiunta la possibilità di cliccare l'indirizzo per lanciare l'explorer a richiesta o inviare screen di conferma
+* Corrette le commissioni segwit al fine di essere il 15% più basse di quelle non-segwit
+* Le cripto basate su account come XRP, EOS ecc. mostreranno le transazioni come saltate se queste non vengono trovate nel network
+
+v1.7.0
+
+* Supporto agli indirizzi Bech32
+* Spostato Edge Core su un processo indipendente per incrementare le performance e la reattività della GUI
+* Vendi le crypto e ottieni fiat sulla carta di credito usando Simplex
+* Aggiunto LibertyX per supportare l'acquisto di Bitcoin da venditori fisici in USA
+
+v1.6.2
+
+* Corretta la denominazione fiat dei portafogli da Airbitz a Edge
+* Corretti i problemi di Crash di EOS
+* Corretti vari bug dell'interfaccia utente
+* Corretta l'identificazione dei metadati delle transazioni al fine di aggiornarsi immediatamente dopo il salvataggio
+* Migliorata la sincronizzazione di XRP e ETH
+* Utilizza più servizi per trasmettere le transazioni XRP e ETH
+* Aggiunto Faa.st instant exchange provider
+
+v1.6.1
+
+* Migliorato il calcolo delle commissioni BTC
+* Aggiunto il tasto compra crypto nella schermata con la lista dei portafogli
+* Aggiunto il pulsante per acquistare e scambiare crypto per portafogli vuoti
+* Corretti numerosi bug all'UI
+* Migliorato il funzionamento dei plugin
+
+v1.6.0
+
+* Supporto a EOS
+* Implementazione deep link di bitcoin, ethereum, bitcoincash, dash e edge URIs
+* Aggiunto il plugin Wyre per supportare la vendita e l'acquisto di Bitcoin dall'account US
+* Aggiunto il plugin Bitrefill per supportare l'acquisto di gift card e ricariche dei cellulari
+* Aggiunta la traduzione in cinese, coreano, francese e vietnamita
+* Aggiunto il supporto per le valute fiat IMP e IRR
+
+v1.5.0
+
+* Aggiunto Changenow come cambio valuta
+* Usa le nuove icone di valuta colorate
+* Consentire l'accesso/disconnessione di ShapeShift tramite la schermata Impostazioni
+
+v1.4.4
+
+* Aggiunta la possibilità di dividere il portafoglio BCH da quello BSV
+* Aggiunta la replay protection ai portafogli BCH/BSV
+* Migliorate le performance di login
+* Corretto un bug che costringeva i portafogli XRP e XLM a scansionare tutte le transazioni a ogni login
+* Migliorata la connettività ai nodi per Bitcoin e altre monete (BTC, BCH, LTC, DASH, ecc.)
+
+v1.4.3
+
+* Incremento notevole delle performance al login e nel sincronizzare i portafogli
+* Aggiunto il supporto a bulletproof di Monero che corregge la spesa e riduce il costo per transazione
+* Gli utenti possono abilitare/disabilitare i diversi cambi valuta
+* Corretto l'occasionale errore "Token non supportato" nella sezione Cambio valuta
+* Abilitata la possibilità di vedere xpub per un numero superiore di cripto
+* Corretto il crash in alcuni account dovuto al tap nel menù in alto a destra subito dopo il login
+* Corretto il blocco che avviene su alcuni dispositivi Android quando si usa Simplex
+
+v1.4.2
+
+* Supporto per Stellar
+* Aggiunta la possibilità di selezionare nodi personalizzati per Bitcoin e valute simili
+* Supporto per membership ShapeShift
+* Supporto per Changelly.com nelle funzionalità cambio valuta (exchange)
+* Aggiunto il supporto allo spagnolo, all'italiano e al russo
+
+v1.3.4
+
+* Prevenuta la possibilità di cliccare multiple volte sul pulsante Fatto durante la creazione del portafoglio
+* Rimossa la schermata bianca che compariva durante il login quando stava arrivando una transazione in entrata
+* Corretto l'address wrapping nel plugin Simplex
+* Corretto il budget del doppio tap nella modalità Cambia password
+* Corretto l'importo delle fiat quando si usano valute di altri paesi
+* Altri miglioramenti visivi
+* Altre correzioni minori

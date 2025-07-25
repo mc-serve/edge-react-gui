@@ -1,0 +1,1692 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`BalanceCard should render with loading props 1`] = `
+<View
+  style={
+    [
+      {
+        "alignSelf": "stretch",
+        "borderRadius": 16,
+      },
+      {
+        "marginBottom": 11,
+        "marginLeft": 11,
+        "marginRight": 11,
+        "marginTop": 11,
+      },
+      {
+        "paddingBottom": 11,
+        "paddingLeft": 11,
+        "paddingRight": 11,
+        "paddingTop": 11,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      {
+        "backgroundColor": "rgba(255, 255, 255, .1)",
+        "borderRadius": 16,
+        "bottom": 0,
+        "left": 0,
+        "overflow": "hidden",
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  />
+  <Text
+    onLayout={[Function]}
+    style={
+      [
+        {
+          "color": "#FFFFFF",
+          "fontFamily": "Quicksand-Medium",
+          "fontSize": 39,
+          "includeFontPadding": false,
+          "textShadowColor": "rgba(0, 0, 0, 0.514)",
+          "textShadowOffset": {
+            "height": 0,
+            "width": 0,
+          },
+          "textShadowRadius": 3,
+        },
+        {
+          "position": "absolute",
+          "top": -999999,
+        },
+      ]
+    }
+  >
+    0
+  </Text>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": false,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "margin": 11,
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "marginBottom": 11,
+        }
+      }
+    >
+      <Text
+        adjustsFontSizeToFit={true}
+        minimumFontScale={0.65}
+        numberOfLines={1}
+        style={
+          [
+            {
+              "color": "#FFFFFF",
+              "fontFamily": "Quicksand-Regular",
+              "fontSize": 22,
+              "includeFontPadding": false,
+            },
+            {
+              "textShadowColor": "rgba(0, 0, 0, 0.514)",
+              "textShadowOffset": {
+                "height": 0,
+                "width": 0,
+              },
+              "textShadowRadius": 3,
+            },
+            null,
+          ]
+        }
+      >
+        Total Balance
+      </Text>
+      <Text
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          [
+            {
+              "color": "#00f1a2",
+              "fontSize": 22,
+            },
+            {
+              "alignSelf": "center",
+              "marginLeft": 6,
+              "marginRight": 0,
+              "textShadowColor": "rgba(0, 0, 0, 0.514)",
+              "textShadowOffset": {
+                "height": 0,
+                "width": 0,
+              },
+              "textShadowRadius": 3,
+            },
+            {
+              "fontFamily": "Ionicons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 56,
+        }
+      }
+    >
+      <View
+        style={
+          [
+            undefined,
+            {
+              "flexDirection": "row",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "Quicksand-Medium",
+                "fontSize": 39,
+                "includeFontPadding": false,
+                "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                "textShadowOffset": {
+                  "height": 0,
+                  "width": 0,
+                },
+                "textShadowRadius": 3,
+              },
+              {
+                "height": 0,
+              },
+            ]
+          }
+        >
+          $
+        </Text>
+        <Text
+          style={
+            [
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "Quicksand-Medium",
+                "fontSize": 39,
+                "includeFontPadding": false,
+                "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                "textShadowOffset": {
+                  "height": 0,
+                  "width": 0,
+                },
+                "textShadowRadius": 3,
+              },
+              {
+                "height": 0,
+              },
+            ]
+          }
+        >
+           
+        </Text>
+        <View
+          style={
+            {
+              "height": 0,
+              "overflow": "hidden",
+            }
+          }
+        >
+          <View
+            collapsable={false}
+            jestAnimatedStyle={
+              {
+                "value": {
+                  "transform": [
+                    {
+                      "translateY": 0,
+                    },
+                  ],
+                },
+              }
+            }
+            style={
+              {
+                "transform": [
+                  {
+                    "translateY": 0,
+                  },
+                ],
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#FFFFFF",
+                      "fontFamily": "Quicksand-Medium",
+                      "fontSize": 39,
+                      "includeFontPadding": false,
+                      "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                      "textShadowOffset": {
+                        "height": 0,
+                        "width": 0,
+                      },
+                      "textShadowRadius": 3,
+                    },
+                    {
+                      "height": 0,
+                    },
+                  ]
+                }
+              >
+                0
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#FFFFFF",
+                      "fontFamily": "Quicksand-Medium",
+                      "fontSize": 39,
+                      "includeFontPadding": false,
+                      "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                      "textShadowOffset": {
+                        "height": 0,
+                        "width": 0,
+                      },
+                      "textShadowRadius": 3,
+                    },
+                    {
+                      "height": 0,
+                    },
+                  ]
+                }
+              >
+                1
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#FFFFFF",
+                      "fontFamily": "Quicksand-Medium",
+                      "fontSize": 39,
+                      "includeFontPadding": false,
+                      "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                      "textShadowOffset": {
+                        "height": 0,
+                        "width": 0,
+                      },
+                      "textShadowRadius": 3,
+                    },
+                    {
+                      "height": 0,
+                    },
+                  ]
+                }
+              >
+                2
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#FFFFFF",
+                      "fontFamily": "Quicksand-Medium",
+                      "fontSize": 39,
+                      "includeFontPadding": false,
+                      "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                      "textShadowOffset": {
+                        "height": 0,
+                        "width": 0,
+                      },
+                      "textShadowRadius": 3,
+                    },
+                    {
+                      "height": 0,
+                    },
+                  ]
+                }
+              >
+                3
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#FFFFFF",
+                      "fontFamily": "Quicksand-Medium",
+                      "fontSize": 39,
+                      "includeFontPadding": false,
+                      "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                      "textShadowOffset": {
+                        "height": 0,
+                        "width": 0,
+                      },
+                      "textShadowRadius": 3,
+                    },
+                    {
+                      "height": 0,
+                    },
+                  ]
+                }
+              >
+                4
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#FFFFFF",
+                      "fontFamily": "Quicksand-Medium",
+                      "fontSize": 39,
+                      "includeFontPadding": false,
+                      "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                      "textShadowOffset": {
+                        "height": 0,
+                        "width": 0,
+                      },
+                      "textShadowRadius": 3,
+                    },
+                    {
+                      "height": 0,
+                    },
+                  ]
+                }
+              >
+                5
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#FFFFFF",
+                      "fontFamily": "Quicksand-Medium",
+                      "fontSize": 39,
+                      "includeFontPadding": false,
+                      "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                      "textShadowOffset": {
+                        "height": 0,
+                        "width": 0,
+                      },
+                      "textShadowRadius": 3,
+                    },
+                    {
+                      "height": 0,
+                    },
+                  ]
+                }
+              >
+                6
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#FFFFFF",
+                      "fontFamily": "Quicksand-Medium",
+                      "fontSize": 39,
+                      "includeFontPadding": false,
+                      "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                      "textShadowOffset": {
+                        "height": 0,
+                        "width": 0,
+                      },
+                      "textShadowRadius": 3,
+                    },
+                    {
+                      "height": 0,
+                    },
+                  ]
+                }
+              >
+                7
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#FFFFFF",
+                      "fontFamily": "Quicksand-Medium",
+                      "fontSize": 39,
+                      "includeFontPadding": false,
+                      "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                      "textShadowOffset": {
+                        "height": 0,
+                        "width": 0,
+                      },
+                      "textShadowRadius": 3,
+                    },
+                    {
+                      "height": 0,
+                    },
+                  ]
+                }
+              >
+                8
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#FFFFFF",
+                      "fontFamily": "Quicksand-Medium",
+                      "fontSize": 39,
+                      "includeFontPadding": false,
+                      "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                      "textShadowOffset": {
+                        "height": 0,
+                        "width": 0,
+                      },
+                      "textShadowRadius": 3,
+                    },
+                    {
+                      "height": 0,
+                    },
+                  ]
+                }
+              >
+                9
+              </Text>
+            </View>
+          </View>
+        </View>
+        <Text
+          style={
+            [
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "Quicksand-Medium",
+                "fontSize": 39,
+                "includeFontPadding": false,
+                "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                "textShadowOffset": {
+                  "height": 0,
+                  "width": 0,
+                },
+                "textShadowRadius": 3,
+              },
+              {
+                "height": 0,
+              },
+            ]
+          }
+        >
+          .
+        </Text>
+        <View
+          style={
+            {
+              "height": 0,
+              "overflow": "hidden",
+            }
+          }
+        >
+          <View
+            collapsable={false}
+            jestAnimatedStyle={
+              {
+                "value": {
+                  "transform": [
+                    {
+                      "translateY": 0,
+                    },
+                  ],
+                },
+              }
+            }
+            style={
+              {
+                "transform": [
+                  {
+                    "translateY": 0,
+                  },
+                ],
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#FFFFFF",
+                      "fontFamily": "Quicksand-Medium",
+                      "fontSize": 39,
+                      "includeFontPadding": false,
+                      "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                      "textShadowOffset": {
+                        "height": 0,
+                        "width": 0,
+                      },
+                      "textShadowRadius": 3,
+                    },
+                    {
+                      "height": 0,
+                    },
+                  ]
+                }
+              >
+                0
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#FFFFFF",
+                      "fontFamily": "Quicksand-Medium",
+                      "fontSize": 39,
+                      "includeFontPadding": false,
+                      "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                      "textShadowOffset": {
+                        "height": 0,
+                        "width": 0,
+                      },
+                      "textShadowRadius": 3,
+                    },
+                    {
+                      "height": 0,
+                    },
+                  ]
+                }
+              >
+                1
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#FFFFFF",
+                      "fontFamily": "Quicksand-Medium",
+                      "fontSize": 39,
+                      "includeFontPadding": false,
+                      "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                      "textShadowOffset": {
+                        "height": 0,
+                        "width": 0,
+                      },
+                      "textShadowRadius": 3,
+                    },
+                    {
+                      "height": 0,
+                    },
+                  ]
+                }
+              >
+                2
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#FFFFFF",
+                      "fontFamily": "Quicksand-Medium",
+                      "fontSize": 39,
+                      "includeFontPadding": false,
+                      "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                      "textShadowOffset": {
+                        "height": 0,
+                        "width": 0,
+                      },
+                      "textShadowRadius": 3,
+                    },
+                    {
+                      "height": 0,
+                    },
+                  ]
+                }
+              >
+                3
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#FFFFFF",
+                      "fontFamily": "Quicksand-Medium",
+                      "fontSize": 39,
+                      "includeFontPadding": false,
+                      "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                      "textShadowOffset": {
+                        "height": 0,
+                        "width": 0,
+                      },
+                      "textShadowRadius": 3,
+                    },
+                    {
+                      "height": 0,
+                    },
+                  ]
+                }
+              >
+                4
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#FFFFFF",
+                      "fontFamily": "Quicksand-Medium",
+                      "fontSize": 39,
+                      "includeFontPadding": false,
+                      "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                      "textShadowOffset": {
+                        "height": 0,
+                        "width": 0,
+                      },
+                      "textShadowRadius": 3,
+                    },
+                    {
+                      "height": 0,
+                    },
+                  ]
+                }
+              >
+                5
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#FFFFFF",
+                      "fontFamily": "Quicksand-Medium",
+                      "fontSize": 39,
+                      "includeFontPadding": false,
+                      "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                      "textShadowOffset": {
+                        "height": 0,
+                        "width": 0,
+                      },
+                      "textShadowRadius": 3,
+                    },
+                    {
+                      "height": 0,
+                    },
+                  ]
+                }
+              >
+                6
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#FFFFFF",
+                      "fontFamily": "Quicksand-Medium",
+                      "fontSize": 39,
+                      "includeFontPadding": false,
+                      "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                      "textShadowOffset": {
+                        "height": 0,
+                        "width": 0,
+                      },
+                      "textShadowRadius": 3,
+                    },
+                    {
+                      "height": 0,
+                    },
+                  ]
+                }
+              >
+                7
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#FFFFFF",
+                      "fontFamily": "Quicksand-Medium",
+                      "fontSize": 39,
+                      "includeFontPadding": false,
+                      "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                      "textShadowOffset": {
+                        "height": 0,
+                        "width": 0,
+                      },
+                      "textShadowRadius": 3,
+                    },
+                    {
+                      "height": 0,
+                    },
+                  ]
+                }
+              >
+                8
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#FFFFFF",
+                      "fontFamily": "Quicksand-Medium",
+                      "fontSize": 39,
+                      "includeFontPadding": false,
+                      "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                      "textShadowOffset": {
+                        "height": 0,
+                        "width": 0,
+                      },
+                      "textShadowRadius": 3,
+                    },
+                    {
+                      "height": 0,
+                    },
+                  ]
+                }
+              >
+                9
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "height": 0,
+              "overflow": "hidden",
+            }
+          }
+        >
+          <View
+            collapsable={false}
+            jestAnimatedStyle={
+              {
+                "value": {
+                  "transform": [
+                    {
+                      "translateY": 0,
+                    },
+                  ],
+                },
+              }
+            }
+            style={
+              {
+                "transform": [
+                  {
+                    "translateY": 0,
+                  },
+                ],
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#FFFFFF",
+                      "fontFamily": "Quicksand-Medium",
+                      "fontSize": 39,
+                      "includeFontPadding": false,
+                      "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                      "textShadowOffset": {
+                        "height": 0,
+                        "width": 0,
+                      },
+                      "textShadowRadius": 3,
+                    },
+                    {
+                      "height": 0,
+                    },
+                  ]
+                }
+              >
+                0
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#FFFFFF",
+                      "fontFamily": "Quicksand-Medium",
+                      "fontSize": 39,
+                      "includeFontPadding": false,
+                      "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                      "textShadowOffset": {
+                        "height": 0,
+                        "width": 0,
+                      },
+                      "textShadowRadius": 3,
+                    },
+                    {
+                      "height": 0,
+                    },
+                  ]
+                }
+              >
+                1
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#FFFFFF",
+                      "fontFamily": "Quicksand-Medium",
+                      "fontSize": 39,
+                      "includeFontPadding": false,
+                      "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                      "textShadowOffset": {
+                        "height": 0,
+                        "width": 0,
+                      },
+                      "textShadowRadius": 3,
+                    },
+                    {
+                      "height": 0,
+                    },
+                  ]
+                }
+              >
+                2
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#FFFFFF",
+                      "fontFamily": "Quicksand-Medium",
+                      "fontSize": 39,
+                      "includeFontPadding": false,
+                      "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                      "textShadowOffset": {
+                        "height": 0,
+                        "width": 0,
+                      },
+                      "textShadowRadius": 3,
+                    },
+                    {
+                      "height": 0,
+                    },
+                  ]
+                }
+              >
+                3
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#FFFFFF",
+                      "fontFamily": "Quicksand-Medium",
+                      "fontSize": 39,
+                      "includeFontPadding": false,
+                      "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                      "textShadowOffset": {
+                        "height": 0,
+                        "width": 0,
+                      },
+                      "textShadowRadius": 3,
+                    },
+                    {
+                      "height": 0,
+                    },
+                  ]
+                }
+              >
+                4
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#FFFFFF",
+                      "fontFamily": "Quicksand-Medium",
+                      "fontSize": 39,
+                      "includeFontPadding": false,
+                      "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                      "textShadowOffset": {
+                        "height": 0,
+                        "width": 0,
+                      },
+                      "textShadowRadius": 3,
+                    },
+                    {
+                      "height": 0,
+                    },
+                  ]
+                }
+              >
+                5
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#FFFFFF",
+                      "fontFamily": "Quicksand-Medium",
+                      "fontSize": 39,
+                      "includeFontPadding": false,
+                      "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                      "textShadowOffset": {
+                        "height": 0,
+                        "width": 0,
+                      },
+                      "textShadowRadius": 3,
+                    },
+                    {
+                      "height": 0,
+                    },
+                  ]
+                }
+              >
+                6
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#FFFFFF",
+                      "fontFamily": "Quicksand-Medium",
+                      "fontSize": 39,
+                      "includeFontPadding": false,
+                      "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                      "textShadowOffset": {
+                        "height": 0,
+                        "width": 0,
+                      },
+                      "textShadowRadius": 3,
+                    },
+                    {
+                      "height": 0,
+                    },
+                  ]
+                }
+              >
+                7
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#FFFFFF",
+                      "fontFamily": "Quicksand-Medium",
+                      "fontSize": 39,
+                      "includeFontPadding": false,
+                      "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                      "textShadowOffset": {
+                        "height": 0,
+                        "width": 0,
+                      },
+                      "textShadowRadius": 3,
+                    },
+                    {
+                      "height": 0,
+                    },
+                  ]
+                }
+              >
+                8
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#FFFFFF",
+                      "fontFamily": "Quicksand-Medium",
+                      "fontSize": 39,
+                      "includeFontPadding": false,
+                      "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                      "textShadowOffset": {
+                        "height": 0,
+                        "width": 0,
+                      },
+                      "textShadowRadius": 3,
+                    },
+                    {
+                      "height": 0,
+                    },
+                  ]
+                }
+              >
+                9
+              </Text>
+            </View>
+          </View>
+        </View>
+        <Text
+          style={
+            [
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "Quicksand-Medium",
+                "fontSize": 39,
+                "includeFontPadding": false,
+                "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                "textShadowOffset": {
+                  "height": 0,
+                  "width": 0,
+                },
+                "textShadowRadius": 3,
+              },
+              {
+                "height": 0,
+              },
+            ]
+          }
+        >
+           
+        </Text>
+        <Text
+          style={
+            [
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "Quicksand-Medium",
+                "fontSize": 39,
+                "includeFontPadding": false,
+                "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                "textShadowOffset": {
+                  "height": 0,
+                  "width": 0,
+                },
+                "textShadowRadius": 3,
+              },
+              {
+                "height": 0,
+              },
+            ]
+          }
+        >
+          U
+        </Text>
+        <Text
+          style={
+            [
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "Quicksand-Medium",
+                "fontSize": 39,
+                "includeFontPadding": false,
+                "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                "textShadowOffset": {
+                  "height": 0,
+                  "width": 0,
+                },
+                "textShadowRadius": 3,
+              },
+              {
+                "height": 0,
+              },
+            ]
+          }
+        >
+          S
+        </Text>
+        <Text
+          style={
+            [
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "Quicksand-Medium",
+                "fontSize": 39,
+                "includeFontPadding": false,
+                "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                "textShadowOffset": {
+                  "height": 0,
+                  "width": 0,
+                },
+                "textShadowRadius": 3,
+              },
+              {
+                "height": 0,
+              },
+            ]
+          }
+        >
+          D
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    absolute={false}
+    layout="row"
+    style={
+      {
+        "flexDirection": "row-reverse",
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "justifyContent": "center",
+        "margin": 11,
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": false,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "alignSelf": "stretch",
+          "flex": 1,
+          "justifyContent": "center",
+          "margin": -11,
+          "opacity": 1,
+          "padding": 11,
+        }
+      }
+    >
+      <BVLinearGradient
+        colors={
+          [
+            872415231,
+            872415231,
+          ]
+        }
+        endPoint={
+          {
+            "x": 1,
+            "y": 1,
+          }
+        }
+        locations={null}
+        startPoint={
+          {
+            "x": 0,
+            "y": 0,
+          }
+        }
+        style={
+          [
+            {
+              "alignItems": "center",
+              "borderRadius": 34,
+              "flexDirection": "row",
+              "flexGrow": 0,
+              "flexShrink": 0,
+              "justifyContent": "center",
+            },
+            {
+              "alignSelf": "stretch",
+            },
+            {
+              "height": 67,
+              "paddingHorizontal": 34,
+            },
+            {
+              "opacity": 1,
+            },
+          ]
+        }
+      >
+        <Text
+          adjustsFontSizeToFit={true}
+          minimumFontScale={0.65}
+          numberOfLines={1}
+          style={
+            [
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "Quicksand-Regular",
+                "fontSize": 22,
+                "includeFontPadding": false,
+              },
+              [
+                {
+                  "color": "#FFFFFF",
+                  "fontFamily": "Quicksand-Regular",
+                  "fontSize": 22,
+                },
+                null,
+              ],
+              null,
+            ]
+          }
+        >
+          Deposit
+        </Text>
+      </BVLinearGradient>
+    </View>
+    <View
+      style={
+        {
+          "alignItems": undefined,
+          "alignSelf": undefined,
+          "flexDirection": "column",
+          "flexGrow": undefined,
+          "justifyContent": undefined,
+          "marginBottom": 11,
+          "marginLeft": 11,
+          "marginRight": 11,
+          "marginTop": 11,
+        }
+      }
+    />
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": false,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "alignSelf": "stretch",
+          "flex": 1,
+          "justifyContent": "center",
+          "margin": -11,
+          "opacity": 1,
+          "padding": 11,
+        }
+      }
+    >
+      <BVLinearGradient
+        colors={
+          [
+            872415231,
+            872415231,
+          ]
+        }
+        endPoint={
+          {
+            "x": 1,
+            "y": 1,
+          }
+        }
+        locations={null}
+        startPoint={
+          {
+            "x": 0,
+            "y": 0,
+          }
+        }
+        style={
+          [
+            {
+              "alignItems": "center",
+              "borderRadius": 34,
+              "flexDirection": "row",
+              "flexGrow": 0,
+              "flexShrink": 0,
+              "justifyContent": "center",
+            },
+            {
+              "alignSelf": "stretch",
+            },
+            {
+              "height": 67,
+              "paddingHorizontal": 34,
+            },
+            {
+              "opacity": 1,
+            },
+          ]
+        }
+      >
+        <Text
+          adjustsFontSizeToFit={true}
+          minimumFontScale={0.65}
+          numberOfLines={1}
+          style={
+            [
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "Quicksand-Regular",
+                "fontSize": 22,
+                "includeFontPadding": false,
+              },
+              [
+                {
+                  "color": "#FFFFFF",
+                  "fontFamily": "Quicksand-Regular",
+                  "fontSize": 22,
+                },
+                null,
+              ],
+              null,
+            ]
+          }
+        >
+          Send
+        </Text>
+      </BVLinearGradient>
+    </View>
+  </View>
+</View>
+`;

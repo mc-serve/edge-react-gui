@@ -1,0 +1,17 @@
+branches:
+  only:
+  - develop
+  - staging
+dist: jammy
+language: node_js
+node_js:
+  - 18
+before_install:
+  - node scripts/hack-travis.mjs
+install:
+  - yarn install --frozen-lockfile --network-concurrency 1
+  - yarn prepare
+script:
+  - yarn lint
+  - yarn tsc
+  - yarn test

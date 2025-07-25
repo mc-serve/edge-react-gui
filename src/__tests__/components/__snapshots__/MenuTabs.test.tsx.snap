@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`MenuTabs should render with loading props 1`] = `
+<View
+  collapsable={false}
+  jestAnimatedStyle={
+    {
+      "value": {
+        "transform": [
+          {
+            "translateY": 0,
+          },
+        ],
+      },
+    }
+  }
+  pointerEvents="box-none"
+  shiftY={0}
+  style={
+    {
+      "bottom": 0,
+      "justifyContent": "flex-end",
+      "left": 0,
+      "overflow": "visible",
+      "position": "absolute",
+      "right": 0,
+      "transform": [
+        {
+          "translateY": 0,
+        },
+      ],
+    }
+  }
+>
+  <View
+    collapsable={false}
+    footerHeight={0}
+    jestAnimatedStyle={
+      {
+        "value": {
+          "transform": [
+            {
+              "translateY": 0,
+            },
+          ],
+        },
+      }
+    }
+    openRatio={1}
+    pointerEvents="none"
+    style={
+      {
+        "bottom": 0,
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "transform": [
+          {
+            "translateY": 0,
+          },
+        ],
+      }
+    }
+    tabLabelHeight={25}
+  >
+    <BlurView
+      blurAmount={10}
+      blurType="dark"
+      overlayColor="rgba(0, 0, 0, 0)"
+      style={
+        {
+          "backgroundColor": undefined,
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+    <BVLinearGradient
+      colors={
+        [
+          16777215,
+          16777215,
+        ]
+      }
+      endPoint={
+        {
+          "x": 0,
+          "y": 1,
+        }
+      }
+      locations={null}
+      startPoint={
+        {
+          "x": 0,
+          "y": 0.5,
+        }
+      }
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    />
+  </View>
+  <View
+    collapsable={false}
+    jestAnimatedStyle={
+      {
+        "value": {
+          "transform": [
+            {
+              "translateY": 0,
+            },
+          ],
+        },
+      }
+    }
+    openRatio={1}
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "transform": [
+          {
+            "translateY": 0,
+          },
+        ],
+      }
+    }
+    tabLabelHeight={25}
+  />
+</View>
+`;

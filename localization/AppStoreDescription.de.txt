@@ -1,0 +1,30 @@
+Titel: Edge - Bitcoin-, Ethereum-, Monero-, Ripple-Wallet
+-----
+Short description: Buy BTC, AVAX, Monero & more
+-----
+Privatsphäre und Sicherheit in unserer einfachen, blockchain Wallet zu verwenden. The Edge app has open-source code to ensure the highest level of security and privacy.
+
+Die Verwaltung Ihrer Kryptowährungen war nie einfacher. Die Edge-Wallet bietet maximale Sicherheit bei gleichzeitiger Einfachheit und ermöglicht es allen Nutzern, ihre Währungen einfach zu verwalten, zu transferieren und zu tauschen.
+
+Edge Crypto Wallet currently supports: Bitcoin, Bitcoin Cash, Litecoin, Dash, Ethereum, Stellar, Monero, Digibyte, and Ripple/XRP.
+
+Edge ist eine leistungsstarke und einfach zu bedienende Wallet für Kryptowährungen, die es Benutzern erlaubt, ihre eigenen privaten Schlüssel mit der Vertrautheit und Leichtigkeit des mobilen Banking's zu kontrollieren. 
+
+Übernehmen Sie die Kontrolle über Ihr Geld! Mit Edge haben nur SIE Zugriff auf Ihr Geld oder die Transaktionsdaten. Weder Edge noch Dritte können auf Ihr Geld oder Ihre Daten zugreifen. Sie erhalten die finanzielle Privatsphäre und Autonomie, für die die Blockchain entworfen wurde, durch die leichte Handhabung kann sogar ihre Großmutter damit umgehen.
+
+Edge bietet auch den Tausch von Kryptowährungen an. Tauschen Sie einfach Ihre Währungen für andere mit ein paar Fingertipps. 
+
+• Keine Kenntnisse & keinen Zugriff auf das Benutzer-Guthaben, die -Schlüssel oder -Transaktionsdaten durch Edge oder Dritte
+• Einfache Kontoerstellung mit nur einem Login & Passwort (kein Druck von PDFs, kein Niederschreiben von Passphrasen oder Hinzufügen von Verschlüsselungseinstellungen)
+• Biometrische TouchID und FaceID Login
+• Hierarchische deterministische Wallet's mit wechselnden Adressen pro Transaktion
+• Dezentralisierte Serverarchitektur. Wallet's funktionieren auch, wenn Edge-Server nicht erreichbar sind.
+• Quelloffener Code. Verfügbar auf https://github.com/EdgeApp
+
+Datenschutz
+Die Edge-Wallet-Anwendung verlangt Zugriff auf die Geräte-Kontaktliste und ihre persönlichen Informationen. Diese Informationen werden auf dem Gerät verwendet, um eine verbesserte Benutzerfreundlichkeit auf folgende Weise zu bieten:
+
+1. Automatisches Vervollständigen von Kontaktdaten aus dem Benutzer-Adressbuch nach einer Transaktion
+2. Automatisches Vervollständigen von Kontaktdaten aus dem Benutzer-Adressbuch um Zahlungsanforderungen per Email oder SMS zu versenden
+
+Keine persönlichen Informationen oder Kontaktlisten-Informationen hinterlässen das Gerät. Weder Edge noch Dritte können auf die von der Anwendung angeforderten Informationen zugreifen.

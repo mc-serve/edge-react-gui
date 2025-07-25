@@ -1,0 +1,14 @@
+{
+  "name": "Kotlin-Gradle Dev",
+  "image": "mcr.microsoft.com/devcontainers/java:0-17", // 带 JDK 的基础镜像
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "fwcd.kotlin",             // Kotlin 支持
+        "vscjava.vscode-java-pack" // Java 语言支持（含调试器）
+      ]
+    }
+  },
+  "postCreateCommand": "bash .devcontainer/setup.sh"
+}

@@ -1,0 +1,122 @@
+v1.9.0
+* Improved stability when coming in and out of background
+* Integrate Safello for buying and selling in Europe
+* Integrate Bits of Gold for selling to Israeli and European bank account
+* Integrate CoinSwitch as an exchange provider
+
+v1.8.7
+* FoxExchange and Godex, 2 new exchange partners that allow you to convert your coins into other coins!
+* Import XRP and XLM private keys
+* WebSockets- Improved connectivity and syncing even when using VPN
+
+v1.8.5
+* Wyre Sell - Sell crypo with your bank account
+* New and improved visuals at login screen
+* Prevent FaceID from automatically lauching on login
+
+v1.8.4
+* Simplex Sell - Sell crypto and pay off credit cards
+* Ravencoin added
+
+v1.8.1
+
+* Fix the minimum Android SDK version to 23+ (Android 6)
+
+v1.8.0
+
+* React native upgrade + visual fixes
+* Prefer fixed-rate quotes over estimates
+
+v1.7.4
+
+*ベータシンプレックス 販売
+高額料金へのユーザー警告
+
+v1.7.3
+
+* BTC手数料の問題を回避するためのパッチ
+
+v1.7.2
+
+*ログイン時のパフォーマンス問題への修正
+* BCH / BSVスプリットエラーを修正
+*様々なビジュアル及びテキストの更新
+*要求に応じてエクスプローラを起動するためにタップアドレスを追加、確認画面の送信
+*セグウィット手数料がセグウィット非対応より15%以下になるよう修正
+* XRP、EOSなどの基本通貨への対応 ネットワーク上に見つからない場合、トランザクションはドロップされたものとして表示。
+
+v1.7.0
+
+*Bech32アドレス対応
+*エッジの中核を独立プロセスに移しグラフィカルユーザインタフェースの反応性パフォーマンスを向上
+*シンプレックスを通じてクレジットカードへ暗号資産を売る
+*アメリカの実店舗からのBitcoinの購入をサポートするためにLibertyXを追加
+
+v1.6.2
+
+AirbitzからEdgeへのウォレットのフィアットの名称を修正
+* EOSクラッシュの問題を修正
+*UIにおける様々なバグを修正
+*保存後すぐに更新するようにトランザクションのメタデータタグ付けを修正
+* XRPとETHの同期の改善
+* XRP及びETHトランザクションをブロードキャストするために複数のサービスを使用
+* Faa.stインスタント交換プロバイダを追加
+
+v1.6.1
+
+BTC手数料計算の改善
+*ウォレットリスト画面で暗号資産購入ボタンを追加
+*空のウォレット用に暗号資産を購入/交換するボタンを追加
+UI上におけるいくつかのバグを修正
+プラグイン機能の改善
+
+v1.6.0
+
+*EOSサポート
+*ビットコイン、イーサリアム、ビットコインキャッシュ、ダッシュとエッジURIのディープリンクを実装
+*アメリカの銀行口座からBitcoinの売買をサポートするためのWyreプラグインを追加
+*ギフトカードやモバイルトップアップの購入をサポートするためのBitrefillプラグインを追加
+*中国語・韓国語・フランス語・ベトナム語翻訳を追加
+* IMPおよびIRRフィアット通貨のサポート追加
+
+バージョン1.5.0
+
+*交換所提携先としてChangeNOWを追加
+*新色の通貨アイコンの使用
+*設定画面でShapeShiftへのサインイン/サインアウトを許可
+
+バージョン1.4.4
+
+*BCHとBSVのスプリットがウォレット内で可能になりました
+*BCHとBSVウォレットにリプレイプロテクションを追加
+*ログインパフォーマンスの向上
+*再ログインするたびにXRPとXLMの全てのトランザクションを照会する原因となったバグの修正
+*ビットコイン関連の通貨 (BTC、BCH、LTC、DASHなど) のノードへの接続性を向上
+
+バージョン1.4.3
+
+*ログインとウォレット同期時の大きなパフォーマンス向上
+*モネロのビュレットプルーフスを追加しモネロの送金を改善
+*ユーザーが交換所プロバイダの有効化と無効化の選択可能になりました
+*交換所画面でたまに起こるエラー「トークンはサポートされていません」を改善
+*より多くの通貨でXpubを見れるようになりました
+*多くのアカウントで発生した、ログイン後すぐに右上のメニューボタンをタップした際にクラッシュするバグを改善
+*いくつかのアンドロイドデバイスでSimplexを利用した際のフリーズを改善
+
+バージョン1.4.2
+
+*ステラのサポート
+*ビットコインや類似通貨のためのカスタムノードを選択できるようになりました
+*ShapeShift メンバーシップのサポートを追加
+*交換機能にChangelly.comのサポートを追加
+*スペイン語、イタリア語、ロシア語の翻訳を追加
+
+バージョン1.3.4
+
+*ウォレットを作成ボタンと完了ボタンが数回タップされるのを防止
+*ログイン時に送金を受信した場合に起こる白い画面でのフリーズを改善
+*Simplex機能にアドレスを含むプロセスの改善
+*パスワード変更におけるダブルタップのバグを改善
+*他の国の通貨を利用する際の法定通貨の数量に関して改善
+*スケーリングの拡大とビジュアルの改善
+*その他、細かなバグ修正

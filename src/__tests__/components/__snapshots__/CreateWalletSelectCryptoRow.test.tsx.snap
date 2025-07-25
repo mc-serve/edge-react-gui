@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`WalletListRow should render with loading props 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": false,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "marginHorizontal": -11,
+      "minHeight": 96,
+      "opacity": 1,
+      "paddingHorizontal": 11,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "height": 45,
+        "marginBottom": 11,
+        "marginLeft": 11,
+        "marginRight": 11,
+        "marginTop": 11,
+        "width": 45,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "backgroundColor": "#000000",
+          "borderRadius": 22.5,
+          "elevation": 0,
+          "height": 45,
+          "shadowColor": "#000000",
+          "shadowOffset": {
+            "height": 3,
+            "width": -3,
+          },
+          "shadowOpacity": 0.6,
+          "shadowRadius": 4,
+          "width": 45,
+        }
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "overflow": "hidden",
+            },
+            {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+          ]
+        }
+      >
+        <FastImageView
+          defaultSource={null}
+          resizeMode="cover"
+          source={
+            {
+              "uri": "https://content.edge.app/currencyIconsV3/bitcoin/bitcoin.png",
+            }
+          }
+          style={
+            {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "flexDirection": "column",
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "marginHorizontal": 11,
+      }
+    }
+  >
+    <Text
+      adjustsFontSizeToFit={true}
+      minimumFontScale={0.65}
+      numberOfLines={1}
+      style={
+        [
+          {
+            "color": "#FFFFFF",
+            "fontFamily": "Quicksand-Regular",
+            "fontSize": 22,
+            "includeFontPadding": false,
+          },
+          {
+            "flexBasis": "auto",
+            "flexShrink": 1,
+            "fontFamily": "Quicksand-Medium",
+          },
+          null,
+        ]
+      }
+    >
+      BTC
+    </Text>
+    <Text
+      adjustsFontSizeToFit={true}
+      minimumFontScale={0.65}
+      numberOfLines={1}
+      style={
+        [
+          {
+            "color": "#FFFFFF",
+            "fontFamily": "Quicksand-Regular",
+            "fontSize": 22,
+            "includeFontPadding": false,
+          },
+          {
+            "color": "#3dd9f4",
+            "fontSize": 17,
+          },
+          null,
+        ]
+      }
+    >
+      My bitcoin wallet
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "paddingRight": 11,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        [
+          {
+            "color": "#66EDA8",
+            "fontSize": 26,
+          },
+          undefined,
+          {
+            "fontFamily": "Ionicons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;

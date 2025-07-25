@@ -1,0 +1,122 @@
+v1.9.0
+* Improved stability when coming in and out of background
+* Integrate Safello for buying and selling in Europe
+* Integrate Bits of Gold for selling to Israeli and European bank account
+* Integrate CoinSwitch as an exchange provider
+
+v1.8.7
+* FoxExchange and Godex, 2 new exchange partners that allow you to convert your coins into other coins!
+* Importação de chaves privadas XRP e XLM
+* WebSockets- Improved connectivity and syncing even when using VPN
+
+v1.8.5
+* Wyre Sell - Sell crypo with your bank account
+* New and improved visuals at login screen
+* Prevent FaceID from automatically lauching on login
+
+v1.8.4
+* Simplex Sell - Sell crypto and pay off credit cards
+* Adicionada Ravencoin
+
+v1.8.1
+
+* Fix the minimum Android SDK version to 23+ (Android 6)
+
+v1.8.0
+
+* React native upgrade + visual fixes
+* Preferência de cotações de taxa fixa em vez de estimativas
+
+v1.7.4
+
+* Beta Simplex sell
+* Aviso de taxas elevadas
+
+v1.7.3
+
+* Correção para evitar problemas com taxa de BTC
+
+v1.7.2
+
+* Corrigidos problemas de desempenho ao iniciar sessão
+* Fix Split BCH/BSV Error
+* Várias atualizações visuais e de texto
+* Add tap address to launch explorer at request or send confirmation screens
+* Fix segwit fees to be 15% lower than non-segwit
+* Account base currencies such as XRP, EOS etc. will show transactions as dropped if not found on the network
+
+v1.7.0
+
+* suporte a endereço Bech32
+* Movera Core da Edge para processo independente a fim de impulsionar o desempenho e a capacidade de resposta do GUI
+* Vender cripto para cartão de crédito com Simplex
+* Add LibertyX to support buying Bitcoin from physical merchants in US
+
+v1.6.2
+
+* Fix fiat denomination of wallets from Airbitz to Edge
+* Fix EOS Crash issues
+* Fix various UI display bugs
+* Fix metadata tagging of transactions to update immediately after saving
+* Melhorias na sincronização de XRP e ETH
+* Use multiple services to broadcast XRP and ETH transactions
+* Add Faa.st instant exchange provider
+
+v1.6.1
+
+* Melhoria no cálculo de taxas BTC
+* Add buy crypto button at Wallets List screen
+* Add new button to buy and exchange crypto for empty wallets
+* Correção de vários erros na interface do utilizador
+* Melhoria no funcionamento de plugins
+
+v1.6.0
+
+* Suporta a EOS
+* Implementando a linkagem profunda das URLs de bitcoin, ethereum, bitcoincash, dash e edge
+* Adicionado plugin Wyre para suportar compra/venda de bitcoins de uma conta bancária no Reino Unido
+* Add Bitrefill plugin to support buying gift cards and mobile top ups
+* Add Chinese, Korean, French, and Vietnamese translations
+* Add support for IMP and IRR fiat currencies
+
+v1.5.0
+
+* Adicionar Changenow como um provedor de troca
+* Use new colored currency icons
+* Allow signin/singout of ShapeShift via Settings screen
+
+v 1.4.4
+
+* Adicionar a capacidade de dividir as carteiras BCH em carteiras BSV
+* Adicionar proteção contra reexecução para carteiras BCH/BSV
+- Melhora a performance de login
+* Correção de bug que causou XRP e XLM a consultar novamente todas as transações em cada login
+* Melhorar a conectividade para nós de bitcoin relacionados com moedas (BTC, BCH, LTC, DASH, etc)
+
+v 1.4.3
+
+* Grande aumento de desempenho quando efetuando login e sincronizando carteiras
+* Adicionar suporte para bulletproofs de Monero que corrigem os gastos de Monero
+Permitir a usuários habilitar/desabilitar provedores de troca
+* Corrigir erro ocasional "Token não é suportado" na tela da Exchange
+* Permitir a visualização de xpub para mais moedas
+* Consertar acidente em grandes contas, quando batem a tecla de menu superior direita imediatamente após o login
+* Consertar o jeito de carregar quando usando Simplex de alguns dispositivos Android
+
+v 1.4.2
+
+* Suporte para Stellar
+* Adicionar habilidade de selecionar nós para Bitcoin e moedas similares
+* Suporte para membros ShapeShift
+* Suporte para Changelly.com na funcionalidade Exchange
+* Adicione tradução em Espanhol, Italiano e Russo
+
+v1.3.4
+
+* Prevenir que o botão de criação de carteira seja clicado várias vezes
+* Consertar tela branca sobre a área do login se ocorrer o recebimento de uma transação
+* Consertar quebra de endereço no plugin Simplex
+Consertar o erro de toque duplo no modo Alterar Senha
+* Consertar os valores da moeda fiduciária ao usar moedas de outros países
+* Adicionar melhorias na escalabilidade e no visual
+* Consertar bugs menores

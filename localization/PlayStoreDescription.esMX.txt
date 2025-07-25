@@ -1,0 +1,35 @@
+Título: Edge - Billetera de Bitcoin y Criptomonedas
+-----
+Descripción corta: Privacidad y seguridad en una billetera de criptomonedas fácil de usar. ¡Compra y vende bitcoin!
+
+<b>Privacidad y seguridad totales en nuestra billetera de criptomonedas y Bitcoin fácil de usar.</b> Compra y vende Bitcoin (BTC), Avalanche (AVAX), Solana (SOL), Litecoin (LTC), Ethereum (ETH), Monero (XMR), Polygon (MATIC), Hedera (HBAR) y otras criptomonedas principales.
+
+Edge Wallet ofrece un 100% de seguridad: ni Edge ni ningún tercero pueden acceder a tu billetera de criptomonedas o datos. Obtienes la privacidad financiera y autonomía para la que fueron diseñados el cripto y la blockchain.
+
+Gestionar tu billetera de criptomonedas y Bitcoin nunca ha sido tan fácil. Edge Wallet ofrece la máxima seguridad manteniendo la simplicidad, permitiendo a todo tipo de usuarios gestionar, transferir e intercambiar fácilmente su cripto y Bitcoin. ¡Edge es la mejor billetera de bitcoin y criptomonedas para mantener las cosas simples y seguras! Con Edge, hacemos que sea sencillo comprar bitcoin, vender bitcoin e intercambiar muchas de las principales criptomonedas.
+
+<b>La billetera Edge Crypto actualmente es compatible con:</b> Bitcoin (BTC), Avalanche (AVAX), Solana (SOL), Monero (XMR), Polygon (MATIC), Hedera (HBAR), Bitcoin Cash (BCH), Litecoin (LTC), Binance Coin (BNB), Tezos, Ethereum (ETH), Ripple (XRP), Binance Chain (BNB), RSK (RBTC), Stellar (XLM), Tezos (XTZ), Ravencoin (RVN), SmartCash (SMART), Zcoin (XZC), Dogecoin (DOGE) y Feathercoin (FTC). ¿Quieres ver otras criptomonedas en nuestra billetera? ¡Envíanos una solicitud!
+
+Edge es una billetera de criptomonedas potente y fácil de usar que permite a los usuarios controlar fácilmente sus propias claves privadas con la familiaridad y facilidad de la banca móvil. 
+
+¡Toma el control de tus fondos! Con Edge Crypto Wallet, solo TÚ tienes acceso a tus fondos o datos de transacciones. 
+
+Edge también ofrece un intercambio de criptomonedas. Intercambia fácilmente tus monedas por otras con unos pocos toques. Intercambia BTC por Ethereum, ETH por BCH y muchos más. ¡Crear nuevas carteras de Avalanche (AVAX), Solana (SOL) y más criptomonedas es fácil con los intercambios!
+
+<b>Características de la Billetera Bitcoin Edge</b>
+• Billetera de criptomonedas segura y aplicación de blockchain
+• Aplicación de billetera de Bitcoin y criptomonedas fácil de usar con soporte para los principales activos criptográficos como Bitcoin Cash, Ethereum (ETH), Litecoin (LTC), Binance Coin (BNB), Ripple (XRP), Avalanche (AVAX), Monero (XMR), Polygon (MATIC), Hedera (HBAR) y más
+• Conocimiento cero y sin acceso a los fondos del usuario, claves o datos de transacciones por parte de Edge o terceros
+• Creación de cuenta simple usando solo un nombre de usuario y contraseña
+• Carteras criptográficas determinísticas jerárquicas con direcciones cambiantes por transacción
+• Arquitectura de servidor descentralizada. Las carteras criptográficas funcionan incluso si los servidores de Edge están caídos.
+• Código abierto. Disponible en https://github.com/EdgeApp
+• Intercambio de criptomonedas integrado para comprar y vender criptomonedas como Bitcoin (BTC), Ethereum (ETH), Litecoin (LTC), Binance, Avalanche (AVAX), Monero (XMR), Solana (SOL), Polygon (MATIC), Hedera (HBAR) ¡y más!
+
+Aviso de privacidad
+La aplicación Edge Wallet solicita acceso a la lista de contactos del dispositivo y a la información personal. Esta información se utiliza en el dispositivo para ofrecer una experiencia de usuario mejorada de las siguientes maneras:
+
+1. Autocompletar los contactos de la libreta de direcciones del usuario después de una transacción.
+2. Autocompletar los contactos de la libreta de direcciones del usuario para enviar solicitudes de pago por correo electrónico o SMS.
+
+Ninguna información personal ni de la lista de contactos abandona el dispositivo sin ser primero cifrada por las credenciales del usuario (nombre de usuario/contraseña). Ni Edge ni ningún tercero pueden acceder a la información solicitada por la aplicación.

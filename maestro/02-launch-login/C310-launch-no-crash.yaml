@@ -1,0 +1,13 @@
+# Priority: Critical
+# Test ID: C310
+# Title: Launch Edge without crashing
+# Expected Result:
+#   1. User is able to open Edge without crashing
+
+appId: ${MAESTRO_APP_ID}
+tags:
+- all
+- C310
+---
+- runFlow:
+    file: ../common/launch-cleared.yaml

@@ -1,0 +1,1715 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`TransactionListTop should render (with ENABLE_VISA_PROGRAM) 1`] = `
+[
+  <View
+    style={
+      [
+        {
+          "alignSelf": "stretch",
+          "borderRadius": 16,
+        },
+        {
+          "marginBottom": 11,
+          "marginLeft": 11,
+          "marginRight": 11,
+          "marginTop": 11,
+        },
+        {
+          "paddingBottom": 22,
+          "paddingLeft": 22,
+          "paddingRight": 22,
+          "paddingTop": 22,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        {
+          "backgroundColor": "rgba(255, 255, 255, .1)",
+          "borderRadius": 16,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 11,
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": false,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={false}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "rgba(255, 255, 255, .1)",
+            "borderRadius": 100,
+            "flexDirection": "row",
+            "flexShrink": 1,
+            "marginRight": 11,
+            "opacity": 1,
+            "paddingHorizontal": 17,
+            "paddingVertical": 6,
+          }
+        }
+      >
+        <View>
+          <RNSVGSvgView
+            align="xMidYMid"
+            bbHeight={38}
+            bbWidth={38}
+            focusable={false}
+            height={38}
+            meetOrSlice={0}
+            minX={-8}
+            minY={-8}
+            style={
+              [
+                {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                },
+                {
+                  "left": -8,
+                  "position": "absolute",
+                  "top": -8,
+                  "transform": [
+                    {
+                      "rotateZ": "-90deg",
+                    },
+                  ],
+                },
+                {
+                  "flex": 0,
+                  "height": 38,
+                  "width": 38,
+                },
+              ]
+            }
+            vbHeight={38}
+            vbWidth={38}
+            width={38}
+          >
+            <RNSVGGroup
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+            >
+              <RNSVGCircle
+                cx={11}
+                cy={11}
+                fill={
+                  {
+                    "payload": 0,
+                    "type": 0,
+                  }
+                }
+                opacity={1}
+                propList={
+                  [
+                    "fill",
+                    "stroke",
+                    "strokeWidth",
+                    "strokeDasharray",
+                    "strokeDashoffset",
+                    "strokeLinecap",
+                  ]
+                }
+                r={13}
+                stroke={
+                  {
+                    "payload": 4278251938,
+                    "type": 0,
+                  }
+                }
+                strokeDasharray={
+                  [
+                    81.68140899333463,
+                    81.68140899333463,
+                  ]
+                }
+                strokeDashoffset={null}
+                strokeLinecap={1}
+                strokeWidth={4}
+              />
+            </RNSVGGroup>
+          </RNSVGSvgView>
+          <View
+            style={
+              {
+                "height": 22,
+                "marginBottom": 0,
+                "marginLeft": 0,
+                "marginRight": 6,
+                "marginTop": 0,
+                "width": 22,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "backgroundColor": "#000000",
+                  "borderRadius": 11,
+                  "elevation": 0,
+                  "height": 22,
+                  "shadowColor": "#000000",
+                  "shadowOffset": {
+                    "height": 3,
+                    "width": -3,
+                  },
+                  "shadowOpacity": 0.6,
+                  "shadowRadius": 4,
+                  "width": 22,
+                }
+              }
+            >
+              <View
+                style={
+                  [
+                    {
+                      "overflow": "hidden",
+                    },
+                    {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                  ]
+                }
+              >
+                <FastImageView
+                  defaultSource={null}
+                  resizeMode="cover"
+                  source={
+                    {
+                      "uri": "https://content.edge.app/currencyIconsV3/bitcoin/bitcoin.png",
+                    }
+                  }
+                  style={
+                    {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+        <Text
+          accessible={true}
+          adjustsFontSizeToFit={true}
+          minimumFontScale={0.65}
+          numberOfLines={1}
+          style={
+            [
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "Quicksand-Regular",
+                "fontSize": 22,
+                "includeFontPadding": false,
+              },
+              {
+                "flexShrink": 1,
+                "fontSize": 17,
+                "lineHeight": 34,
+              },
+              null,
+            ]
+          }
+        >
+          wallet name
+        </Text>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": false,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignSelf": "center",
+            "margin": -17,
+            "marginRight": -17,
+            "opacity": 1,
+            "padding": 17,
+            "paddingRight": 11,
+          }
+        }
+        testID="gearIcon"
+      >
+        <Text
+          accessibilityHint="Wallet settings"
+          allowFontScaling={false}
+          selectable={false}
+          style={
+            [
+              {
+                "color": "#FFFFFF",
+                "fontSize": 22,
+              },
+              undefined,
+              {
+                "fontFamily": "Entypo",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": false,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={false}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "flexShrink": 1,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          adjustsFontSizeToFit={true}
+          minimumFontScale={0.25}
+          numberOfLines={1}
+          style={
+            [
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "Quicksand-Regular",
+                "fontSize": 22,
+                "includeFontPadding": false,
+              },
+              {
+                "flexShrink": 1,
+                "fontFamily": "Quicksand-Medium",
+                "fontSize": 39,
+              },
+              null,
+            ]
+          }
+        >
+          0.00123123 BTC
+        </Text>
+        <Text
+          allowFontScaling={false}
+          selectable={false}
+          style={
+            [
+              {
+                "color": "#00f1a2",
+                "fontSize": 26,
+              },
+              {
+                "alignSelf": "center",
+                "flexGrow": 1,
+                "marginLeft": 11,
+                "marginRight": 0,
+                "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                "textShadowOffset": {
+                  "height": 0,
+                  "width": 0,
+                },
+                "textShadowRadius": 3,
+              },
+              {
+                "fontFamily": "Ionicons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+      <Text
+        accessible={true}
+        adjustsFontSizeToFit={true}
+        minimumFontScale={0.65}
+        numberOfLines={1}
+        style={
+          [
+            {
+              "color": "#FFFFFF",
+              "fontFamily": "Quicksand-Regular",
+              "fontSize": 22,
+              "includeFontPadding": false,
+            },
+            {
+              "fontSize": 28,
+            },
+            null,
+          ]
+        }
+      >
+        $0.00 USD
+      </Text>
+    </View>
+  </View>,
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "flexShrink": 1,
+        "justifyContent": "space-evenly",
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={false}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "flexShrink": 1,
+          "justifyContent": "center",
+          "marginHorizontal": -22,
+          "marginVertical": 11,
+          "opacity": 1,
+          "paddingHorizontal": 22,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "flexShrink": 1,
+            "justifyContent": "center",
+            "marginBottom": 6,
+            "paddingTop": 11,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "rgba(255, 255, 255, .1)",
+              "borderRadius": 33.5,
+              "height": 67,
+              "justifyContent": "center",
+              "width": 67,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              [
+                {
+                  "color": "#FFFFFF",
+                  "fontSize": 45,
+                },
+                undefined,
+                {
+                  "fontFamily": "Ionicons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <Text
+        adjustsFontSizeToFit={true}
+        minimumFontScale={0.65}
+        numberOfLines={1}
+        style={
+          [
+            {
+              "color": "#FFFFFF",
+              "fontFamily": "Quicksand-Regular",
+              "fontSize": 22,
+              "includeFontPadding": false,
+            },
+            {
+              "textAlign": "center",
+            },
+            null,
+          ]
+        }
+      >
+        Receive
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={false}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "flexShrink": 1,
+          "justifyContent": "center",
+          "marginHorizontal": -22,
+          "marginVertical": 11,
+          "opacity": 1,
+          "paddingHorizontal": 22,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "flexShrink": 1,
+            "justifyContent": "center",
+            "marginBottom": 6,
+            "paddingTop": 11,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "rgba(255, 255, 255, .1)",
+              "borderRadius": 33.5,
+              "height": 67,
+              "justifyContent": "center",
+              "width": 67,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              [
+                {
+                  "color": "#FFFFFF",
+                  "fontSize": 45,
+                },
+                undefined,
+                {
+                  "fontFamily": "Ionicons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <Text
+        adjustsFontSizeToFit={true}
+        minimumFontScale={0.65}
+        numberOfLines={1}
+        style={
+          [
+            {
+              "color": "#FFFFFF",
+              "fontFamily": "Quicksand-Regular",
+              "fontSize": 22,
+              "includeFontPadding": false,
+            },
+            {
+              "textAlign": "center",
+            },
+            null,
+          ]
+        }
+      >
+        Send
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={false}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "flexShrink": 1,
+          "justifyContent": "center",
+          "marginHorizontal": -22,
+          "marginVertical": 11,
+          "opacity": 1,
+          "paddingHorizontal": 22,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "flexShrink": 1,
+            "justifyContent": "center",
+            "marginBottom": 6,
+            "paddingTop": 11,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "rgba(255, 255, 255, .1)",
+              "borderRadius": 33.5,
+              "height": 67,
+              "justifyContent": "center",
+              "width": 67,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              [
+                {
+                  "color": "#FFFFFF",
+                  "fontSize": 45,
+                },
+                undefined,
+                {
+                  "fontFamily": "Ionicons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <Text
+        adjustsFontSizeToFit={true}
+        minimumFontScale={0.65}
+        numberOfLines={1}
+        style={
+          [
+            {
+              "color": "#FFFFFF",
+              "fontFamily": "Quicksand-Regular",
+              "fontSize": 22,
+              "includeFontPadding": false,
+            },
+            {
+              "textAlign": "center",
+            },
+            null,
+          ]
+        }
+      >
+        Trade
+      </Text>
+    </View>
+  </View>,
+  <View
+    style={
+      [
+        {
+          "alignSelf": "stretch",
+          "borderRadius": 16,
+        },
+        {
+          "marginBottom": 11,
+          "marginLeft": 11,
+          "marginRight": 11,
+          "marginTop": 11,
+        },
+        {
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        {
+          "backgroundColor": "rgba(255, 255, 255, .1)",
+          "borderRadius": 16,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": false,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "opacity": 1,
+          "padding": 11,
+        }
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "overflow": "hidden",
+            },
+            {
+              "height": 45,
+              "margin": 11,
+              "width": 45,
+            },
+          ]
+        }
+      >
+        <FastImageView
+          defaultSource={null}
+          resizeMode="contain"
+          source={
+            {
+              "uri": "https://content.edge.app/currencyIconsV3/bitcoin/bitcoin.png",
+            }
+          }
+          style={
+            {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+        />
+      </View>
+      <Text
+        adjustsFontSizeToFit={true}
+        minimumFontScale={0.65}
+        numberOfLines={0}
+        style={
+          [
+            {
+              "color": "#FFFFFF",
+              "fontFamily": "Quicksand-Regular",
+              "fontSize": 22,
+              "includeFontPadding": false,
+            },
+            {
+              "marginLeft": 11,
+            },
+            null,
+          ]
+        }
+      >
+        Buy Prepaid Visa® Cards
+      </Text>
+    </View>
+  </View>,
+]
+`;
+
+exports[`TransactionListTop should render 1`] = `
+[
+  <View
+    style={
+      [
+        {
+          "alignSelf": "stretch",
+          "borderRadius": 16,
+        },
+        {
+          "marginBottom": 11,
+          "marginLeft": 11,
+          "marginRight": 11,
+          "marginTop": 11,
+        },
+        {
+          "paddingBottom": 22,
+          "paddingLeft": 22,
+          "paddingRight": 22,
+          "paddingTop": 22,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        {
+          "backgroundColor": "rgba(255, 255, 255, .1)",
+          "borderRadius": 16,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 11,
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": false,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={false}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "rgba(255, 255, 255, .1)",
+            "borderRadius": 100,
+            "flexDirection": "row",
+            "flexShrink": 1,
+            "marginRight": 11,
+            "opacity": 1,
+            "paddingHorizontal": 17,
+            "paddingVertical": 6,
+          }
+        }
+      >
+        <View>
+          <RNSVGSvgView
+            align="xMidYMid"
+            bbHeight={38}
+            bbWidth={38}
+            focusable={false}
+            height={38}
+            meetOrSlice={0}
+            minX={-8}
+            minY={-8}
+            style={
+              [
+                {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                },
+                {
+                  "left": -8,
+                  "position": "absolute",
+                  "top": -8,
+                  "transform": [
+                    {
+                      "rotateZ": "-90deg",
+                    },
+                  ],
+                },
+                {
+                  "flex": 0,
+                  "height": 38,
+                  "width": 38,
+                },
+              ]
+            }
+            vbHeight={38}
+            vbWidth={38}
+            width={38}
+          >
+            <RNSVGGroup
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+            >
+              <RNSVGCircle
+                cx={11}
+                cy={11}
+                fill={
+                  {
+                    "payload": 0,
+                    "type": 0,
+                  }
+                }
+                opacity={1}
+                propList={
+                  [
+                    "fill",
+                    "stroke",
+                    "strokeWidth",
+                    "strokeDasharray",
+                    "strokeDashoffset",
+                    "strokeLinecap",
+                  ]
+                }
+                r={13}
+                stroke={
+                  {
+                    "payload": 4278251938,
+                    "type": 0,
+                  }
+                }
+                strokeDasharray={
+                  [
+                    81.68140899333463,
+                    81.68140899333463,
+                  ]
+                }
+                strokeDashoffset={null}
+                strokeLinecap={1}
+                strokeWidth={4}
+              />
+            </RNSVGGroup>
+          </RNSVGSvgView>
+          <View
+            style={
+              {
+                "height": 22,
+                "marginBottom": 0,
+                "marginLeft": 0,
+                "marginRight": 6,
+                "marginTop": 0,
+                "width": 22,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "backgroundColor": "#000000",
+                  "borderRadius": 11,
+                  "elevation": 0,
+                  "height": 22,
+                  "shadowColor": "#000000",
+                  "shadowOffset": {
+                    "height": 3,
+                    "width": -3,
+                  },
+                  "shadowOpacity": 0.6,
+                  "shadowRadius": 4,
+                  "width": 22,
+                }
+              }
+            >
+              <View
+                style={
+                  [
+                    {
+                      "overflow": "hidden",
+                    },
+                    {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                  ]
+                }
+              >
+                <FastImageView
+                  defaultSource={null}
+                  resizeMode="cover"
+                  source={
+                    {
+                      "uri": "https://content.edge.app/currencyIconsV3/bitcoin/bitcoin.png",
+                    }
+                  }
+                  style={
+                    {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+        <Text
+          accessible={true}
+          adjustsFontSizeToFit={true}
+          minimumFontScale={0.65}
+          numberOfLines={1}
+          style={
+            [
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "Quicksand-Regular",
+                "fontSize": 22,
+                "includeFontPadding": false,
+              },
+              {
+                "flexShrink": 1,
+                "fontSize": 17,
+                "lineHeight": 34,
+              },
+              null,
+            ]
+          }
+        >
+          wallet name
+        </Text>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": false,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignSelf": "center",
+            "margin": -17,
+            "marginRight": -17,
+            "opacity": 1,
+            "padding": 17,
+            "paddingRight": 11,
+          }
+        }
+        testID="gearIcon"
+      >
+        <Text
+          accessibilityHint="Wallet settings"
+          allowFontScaling={false}
+          selectable={false}
+          style={
+            [
+              {
+                "color": "#FFFFFF",
+                "fontSize": 22,
+              },
+              undefined,
+              {
+                "fontFamily": "Entypo",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": false,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={false}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "flexShrink": 1,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          adjustsFontSizeToFit={true}
+          minimumFontScale={0.25}
+          numberOfLines={1}
+          style={
+            [
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "Quicksand-Regular",
+                "fontSize": 22,
+                "includeFontPadding": false,
+              },
+              {
+                "flexShrink": 1,
+                "fontFamily": "Quicksand-Medium",
+                "fontSize": 39,
+              },
+              null,
+            ]
+          }
+        >
+          0.00123123 BTC
+        </Text>
+        <Text
+          allowFontScaling={false}
+          selectable={false}
+          style={
+            [
+              {
+                "color": "#00f1a2",
+                "fontSize": 26,
+              },
+              {
+                "alignSelf": "center",
+                "flexGrow": 1,
+                "marginLeft": 11,
+                "marginRight": 0,
+                "textShadowColor": "rgba(0, 0, 0, 0.514)",
+                "textShadowOffset": {
+                  "height": 0,
+                  "width": 0,
+                },
+                "textShadowRadius": 3,
+              },
+              {
+                "fontFamily": "Ionicons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+      <Text
+        accessible={true}
+        adjustsFontSizeToFit={true}
+        minimumFontScale={0.65}
+        numberOfLines={1}
+        style={
+          [
+            {
+              "color": "#FFFFFF",
+              "fontFamily": "Quicksand-Regular",
+              "fontSize": 22,
+              "includeFontPadding": false,
+            },
+            {
+              "fontSize": 28,
+            },
+            null,
+          ]
+        }
+      >
+        $0.00 USD
+      </Text>
+    </View>
+  </View>,
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "flexShrink": 1,
+        "justifyContent": "space-evenly",
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={false}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "flexShrink": 1,
+          "justifyContent": "center",
+          "marginHorizontal": -22,
+          "marginVertical": 11,
+          "opacity": 1,
+          "paddingHorizontal": 22,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "flexShrink": 1,
+            "justifyContent": "center",
+            "marginBottom": 6,
+            "paddingTop": 11,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "rgba(255, 255, 255, .1)",
+              "borderRadius": 33.5,
+              "height": 67,
+              "justifyContent": "center",
+              "width": 67,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              [
+                {
+                  "color": "#FFFFFF",
+                  "fontSize": 45,
+                },
+                undefined,
+                {
+                  "fontFamily": "Ionicons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <Text
+        adjustsFontSizeToFit={true}
+        minimumFontScale={0.65}
+        numberOfLines={1}
+        style={
+          [
+            {
+              "color": "#FFFFFF",
+              "fontFamily": "Quicksand-Regular",
+              "fontSize": 22,
+              "includeFontPadding": false,
+            },
+            {
+              "textAlign": "center",
+            },
+            null,
+          ]
+        }
+      >
+        Receive
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={false}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "flexShrink": 1,
+          "justifyContent": "center",
+          "marginHorizontal": -22,
+          "marginVertical": 11,
+          "opacity": 1,
+          "paddingHorizontal": 22,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "flexShrink": 1,
+            "justifyContent": "center",
+            "marginBottom": 6,
+            "paddingTop": 11,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "rgba(255, 255, 255, .1)",
+              "borderRadius": 33.5,
+              "height": 67,
+              "justifyContent": "center",
+              "width": 67,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              [
+                {
+                  "color": "#FFFFFF",
+                  "fontSize": 45,
+                },
+                undefined,
+                {
+                  "fontFamily": "Ionicons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <Text
+        adjustsFontSizeToFit={true}
+        minimumFontScale={0.65}
+        numberOfLines={1}
+        style={
+          [
+            {
+              "color": "#FFFFFF",
+              "fontFamily": "Quicksand-Regular",
+              "fontSize": 22,
+              "includeFontPadding": false,
+            },
+            {
+              "textAlign": "center",
+            },
+            null,
+          ]
+        }
+      >
+        Send
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={false}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "flexShrink": 1,
+          "justifyContent": "center",
+          "marginHorizontal": -22,
+          "marginVertical": 11,
+          "opacity": 1,
+          "paddingHorizontal": 22,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "flexShrink": 1,
+            "justifyContent": "center",
+            "marginBottom": 6,
+            "paddingTop": 11,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "rgba(255, 255, 255, .1)",
+              "borderRadius": 33.5,
+              "height": 67,
+              "justifyContent": "center",
+              "width": 67,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              [
+                {
+                  "color": "#FFFFFF",
+                  "fontSize": 45,
+                },
+                undefined,
+                {
+                  "fontFamily": "Ionicons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <Text
+        adjustsFontSizeToFit={true}
+        minimumFontScale={0.65}
+        numberOfLines={1}
+        style={
+          [
+            {
+              "color": "#FFFFFF",
+              "fontFamily": "Quicksand-Regular",
+              "fontSize": 22,
+              "includeFontPadding": false,
+            },
+            {
+              "textAlign": "center",
+            },
+            null,
+          ]
+        }
+      >
+        Trade
+      </Text>
+    </View>
+  </View>,
+]
+`;

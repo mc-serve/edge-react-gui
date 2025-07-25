@@ -1,0 +1,125 @@
+v1.9.0
+* Improved stability when coming in and out of background
+* Integrate Safello for buying and selling in Europe
+* Integrate Bits of Gold for selling to Israeli and European bank account
+* Integrate CoinSwitch as an exchange provider
+
+v1.8.7
+* FoxExchange and Godex, 2 new exchange partners that allow you to convert your coins into other coins!
+* Import XRP and XLM private keys
+* WebSockets- Improved connectivity and syncing even when using VPN
+
+v1.8.5
+* Wyre Sell - Sell crypo with your bank account
+* New and improved visuals at login screen
+* Prevent FaceID from automatically lauching on login
+
+v1.8.4
+* Simplex Sell - Sell crypto and pay off credit cards
+* Ravencoin added
+
+v1.8.1
+
+* Fix the minimum Android SDK version to 23+ (Android 6)
+
+v1.8.0
+
+* React native upgrade + visual fixes
+* Prefer fixed-rate quotes over estimates
+
+v1.7.4
+
+* Beta Simplex sell
+* Warn users about high fees
+
+v1.7.3
+
+* Bản vá để tránh các vấn đề về phí BTC
+
+v1.7.2
+
+
+* Khắc phục sự cố hiệu suất khi đăng nhập
+* Khắc phục lỗi phân tách BCH / BSV
+* Cập nhật hình ảnh và văn bản khác nhau
+* Thêm địa chỉ nhấn để khởi chạy explorer theo yêu cầu hoặc gửi màn hình xác nhận
+* Khắc phục phí segwit thấp hơn 15% so với phí không segwit
+* Các loại tiền cơ sở tài khoản như XRP, EOS, v. v. sẽ hiển thị các giao dịch bị hủy nếu không tìm thấy trên mạng
+
+v1.7.0
+
+* Hỗ trợ địa chỉ Bech32
+* Di chuyển Edge Core sang quy trình độc lập để tăng hiệu suất và khả năng phản hồi GUI
+Bán tiền điện tử vào thẻ tín dụng bằng Simplex
+
+* Thêm Liberty X để hỗ trợ mua Bitcoin từ các người bán thực tế ở Hoa Kỳ
+
+v1.6.2
+
+* Khắc phục mệnh giá fiat của ví từ Airbitz sang Edge
+* Khắc phục sự cố EOS Crash
+* Sửa các lỗi hiển thị UI khác nhau
+* Khắc phục việc gắn thẻ siêu dữ liệu của các giao dịch để cập nhật ngay lập tức sau khi lưu
+* Cải thiện đồng bộ hóa XRP và ETH
+* Sử dụng nhiều dịch vụ để phát các giao dịch XRP và ETH
+* Thêm nhà cung cấp trao đổi tức thì Faa.st
+
+v1.6.1
+
+* Cải thiện tính toán phí BTC
+* Thêm nút mua tiền điện tử tại màn hình danh sách Ví
+* Thêm nút mới để mua và trao đổi tiền điện tử cho ví trống
+* Khắc phục một số lỗi hiển thị UI
+
+* Cải thiện chức năng plugin
+
+v1.6.0
+
+* Hỗ trợ EOS
+* Triển khai liên kết sâu của các bitcoin bitcoin, ethereum, bitcoincash, dash và edge
+* Thêm plugin Wyre để hỗ trợ mua / bán Bitcoin từ tài khoản ngân hàng Hoa Kỳ
+* Thêm plugin Bitrefill để hỗ trợ mua thẻ quà tặng và nạp tiền điện thoại di động
+* Thêm bản dịch tiếng Trung, tiếng Hàn, tiếng Pháp và tiếng Việt
+* Thêm hỗ trợ cho các loại tiền tệ fiat của IMP và IRR
+
+v1.5.0
+
+* Thêm Changenow như một nhà cung cấp trao đổi
+* Sử dụng biểu tượng tiền tệ màu mới
+* Cho phép đăng nhập / thát ra khỏi ShapeShift thông qua màn hình Cài đặt
+
+v1.4.4
+
+* Thêm khả năng chia ví BCH thành ví BSV
+* Thêm bảo vệ lập lại vào ví BCH / BSV
+* Cải thiện hiệu suất đăng nhập
+* Khắc phục lỗi khiến XRP và XLM truy vấn lại tất cả các giao dịch tại mỗi lần đăng nhập
+* Cải thiện kết nối với các nút cho các loại tiền tệ liên quan đến bitcoin (BTC, BCH, LTC, DASH, v. v.)
+
+v1.4.3
+
+* Tăng hiệu suất lớn khi đăng nhập và đồng bộ hóa ví
+* Thêm hỗ trợ cho Monero giúp khắc phục chi tiêu của Monero
+* Cho phép người dùng kích hoạt / vô hiệu hóa nhà cung cấp giao dịch
+* Khắc phục lỗi "Mã thông báo không được hỗ trợ" thường hiện trong màn hình khi trao đổi
+* Cho phép xem xpub để biết thêm các loại tiền tệ
+* Khắc phục sự cố trên các tài khoản lớn khi bấm vào menu nút trên cùng bên phải ngay sau khi đăng nhập
+* Khắc phục lỗi treo khi sử dụng Simplex từ một số thiết bị Android
+
+v1.4.2
+
+* Hỗ trợ cho Stellar
+* Thêm khả năng chọn các nút tùy chỉnh cho Bitcoin và các loại tiền tệ tương tự
+* Hỗ trợ cho thành viên ShapeShift
+* Hỗ trợ Changelly.com trong trao đổi chức năng
+* Thêm bản dịch tiếng Tây Ban Nha, tiếng Ý và tiếng Nga
+
+v1.3.4
+
+* Ngăn nút tạo nút hoàn thành sao cho nút không bị gõ nhiều lần
+* Khắc phục lỗi treo màn hình trắng khi đăng nhập nếu giao dịch đến xảy ra
+* Sửa một số địa chỉ trong plugin đặt vào Simplex
+* Khắc phục lỗi chạm hai lần vào chế độ thay đổi Mật khẩu
+* Khắc phục số tiền Fiat khi sử dụng các loại tiền tệ quốc gia khác
+* Cải thiện tỷ lệ và hình ảnh bổ sung
+* Sửa lỗi nhỏ khác

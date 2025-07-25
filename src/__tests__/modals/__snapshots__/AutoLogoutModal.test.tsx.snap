@@ -1,0 +1,732 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`AutoLogoutModal should render with loading props 1`] = `
+[
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": false,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    jestAnimatedStyle={
+      {
+        "value": {
+          "opacity": 0,
+        },
+      }
+    }
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "backgroundColor": "#000000",
+        "bottom": 0,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  />,
+  <View
+    collapsable={false}
+    jestAnimatedStyle={
+      {
+        "value": {
+          "transform": [
+            {
+              "translateY": 1334,
+            },
+          ],
+        },
+      }
+    }
+    style={
+      {
+        "alignSelf": "flex-end",
+        "backgroundColor": "rgba(255, 255, 255, .37)",
+        "borderColor": "rgba(255, 255, 255, 0)",
+        "borderTopLeftRadius": 22,
+        "borderTopRightRadius": 22,
+        "borderWidth": 0,
+        "flexShrink": 1,
+        "marginBottom": -86,
+        "overflow": "hidden",
+        "paddingBottom": 97,
+        "paddingLeft": 11,
+        "paddingRight": 11,
+        "paddingTop": 0,
+        "transform": [
+          {
+            "translateY": 1334,
+          },
+        ],
+        "width": 674,
+      }
+    }
+  >
+    <BlurView
+      blurAmount={10}
+      blurType="dark"
+      overlayColor="rgba(0, 0, 0, 0)"
+      style={
+        [
+          {
+            "backgroundColor": undefined,
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          {
+            "borderRadius": 16,
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "backgroundColor": "hsla(0, 0%, 53%, 0.3)",
+            "borderRadius": 3,
+            "height": 6,
+            "marginTop": 6,
+            "width": 67,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "flex-start",
+          "flexDirection": "row",
+          "marginBottom": 11,
+          "marginTop": 28,
+        }
+      }
+    >
+      <Text
+        adjustsFontSizeToFit={true}
+        minimumFontScale={0.65}
+        numberOfLines={2}
+        style={
+          [
+            {
+              "color": "#FFFFFF",
+              "fontFamily": "Quicksand-Regular",
+              "fontSize": 22,
+              "includeFontPadding": false,
+            },
+            {
+              "flexShrink": 1,
+              "fontFamily": "Quicksand-Medium",
+              "fontSize": 27,
+              "marginHorizontal": 11,
+            },
+            null,
+          ]
+        }
+      >
+        Set Auto Logoff time
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "flex": 1,
+          }
+        }
+      >
+        <RNCPicker
+          items={
+            [
+              {
+                "label": "Disabled",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 0,
+              },
+              {
+                "label": "1",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 1,
+              },
+              {
+                "label": "2",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 2,
+              },
+              {
+                "label": "3",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 3,
+              },
+              {
+                "label": "4",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 4,
+              },
+              {
+                "label": "5",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 5,
+              },
+              {
+                "label": "6",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 6,
+              },
+              {
+                "label": "7",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 7,
+              },
+              {
+                "label": "8",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 8,
+              },
+              {
+                "label": "9",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 9,
+              },
+              {
+                "label": "10",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 10,
+              },
+              {
+                "label": "11",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 11,
+              },
+              {
+                "label": "12",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 12,
+              },
+              {
+                "label": "13",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 13,
+              },
+              {
+                "label": "14",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 14,
+              },
+              {
+                "label": "15",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 15,
+              },
+              {
+                "label": "16",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 16,
+              },
+              {
+                "label": "17",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 17,
+              },
+              {
+                "label": "18",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 18,
+              },
+              {
+                "label": "19",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 19,
+              },
+              {
+                "label": "20",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 20,
+              },
+              {
+                "label": "21",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 21,
+              },
+              {
+                "label": "22",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 22,
+              },
+              {
+                "label": "23",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 23,
+              },
+              {
+                "label": "24",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 24,
+              },
+              {
+                "label": "25",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 25,
+              },
+              {
+                "label": "26",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 26,
+              },
+              {
+                "label": "27",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 27,
+              },
+              {
+                "label": "28",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 28,
+              },
+              {
+                "label": "29",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 29,
+              },
+              {
+                "label": "30",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 30,
+              },
+              {
+                "label": "31",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 31,
+              },
+              {
+                "label": "32",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 32,
+              },
+              {
+                "label": "33",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 33,
+              },
+              {
+                "label": "34",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 34,
+              },
+              {
+                "label": "35",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 35,
+              },
+              {
+                "label": "36",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 36,
+              },
+              {
+                "label": "37",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 37,
+              },
+              {
+                "label": "38",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 38,
+              },
+              {
+                "label": "39",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 39,
+              },
+              {
+                "label": "40",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 40,
+              },
+              {
+                "label": "41",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 41,
+              },
+              {
+                "label": "42",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 42,
+              },
+              {
+                "label": "43",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 43,
+              },
+              {
+                "label": "44",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 44,
+              },
+              {
+                "label": "45",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 45,
+              },
+              {
+                "label": "46",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 46,
+              },
+              {
+                "label": "47",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 47,
+              },
+              {
+                "label": "48",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 48,
+              },
+              {
+                "label": "49",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 49,
+              },
+              {
+                "label": "50",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 50,
+              },
+              {
+                "label": "51",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 51,
+              },
+              {
+                "label": "52",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 52,
+              },
+              {
+                "label": "53",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 53,
+              },
+              {
+                "label": "54",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 54,
+              },
+              {
+                "label": "55",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 55,
+              },
+              {
+                "label": "56",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 56,
+              },
+              {
+                "label": "57",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 57,
+              },
+              {
+                "label": "58",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 58,
+              },
+              {
+                "label": "59",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": 59,
+              },
+            ]
+          }
+          numberOfLines={1}
+          onChange={[Function]}
+          selectedIndex={11}
+          style={
+            [
+              {
+                "height": 216,
+              },
+              undefined,
+            ]
+          }
+        />
+      </View>
+      <View
+        style={
+          {
+            "flex": 1,
+          }
+        }
+      >
+        <RNCPicker
+          items={
+            [
+              {
+                "label": "Second(s)",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": "seconds",
+              },
+              {
+                "label": "Minute(s)",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": "minutes",
+              },
+              {
+                "label": "Hour(s)",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": "hours",
+              },
+              {
+                "label": "Day(s)",
+                "testID": undefined,
+                "textColor": 4294967295,
+                "value": "days",
+              },
+            ]
+          }
+          numberOfLines={1}
+          onChange={[Function]}
+          selectedIndex={0}
+          style={
+            [
+              {
+                "height": 216,
+              },
+              undefined,
+            ]
+          }
+        />
+      </View>
+    </View>
+    <View
+      absolute={false}
+      layout="column"
+      parentType="modal"
+      style={
+        {
+          "alignItems": "stretch",
+          "alignSelf": "center",
+          "flexDirection": "column",
+          "margin": 11,
+          "marginBottom": 22,
+          "marginTop": 45,
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": false,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "alignSelf": "stretch",
+            "flexBasis": "auto",
+            "flexGrow": 0,
+            "flexShrink": 0,
+            "justifyContent": "center",
+            "margin": -11,
+            "opacity": 1,
+            "padding": 11,
+          }
+        }
+      >
+        <BVLinearGradient
+          colors={
+            [
+              4280299823,
+              4278214733,
+            ]
+          }
+          endPoint={
+            {
+              "x": 1,
+              "y": 0,
+            }
+          }
+          locations={null}
+          startPoint={
+            {
+              "x": 0,
+              "y": 0,
+            }
+          }
+          style={
+            [
+              {
+                "alignItems": "center",
+                "borderRadius": 34,
+                "flexDirection": "row",
+                "flexGrow": 0,
+                "flexShrink": 0,
+                "justifyContent": "center",
+              },
+              {
+                "alignSelf": "stretch",
+              },
+              {
+                "height": 67,
+                "paddingHorizontal": 34,
+              },
+              {
+                "opacity": 1,
+              },
+            ]
+          }
+        >
+          <Text
+            adjustsFontSizeToFit={true}
+            minimumFontScale={0.65}
+            numberOfLines={1}
+            style={
+              [
+                {
+                  "color": "#FFFFFF",
+                  "fontFamily": "Quicksand-Regular",
+                  "fontSize": 22,
+                  "includeFontPadding": false,
+                },
+                [
+                  {
+                    "color": "#FFFFFF",
+                    "fontFamily": "Quicksand-Medium",
+                    "fontSize": 22,
+                  },
+                  null,
+                ],
+                null,
+              ]
+            }
+          >
+            Save
+          </Text>
+        </BVLinearGradient>
+      </View>
+    </View>
+  </View>,
+]
+`;

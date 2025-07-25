@@ -1,0 +1,319 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransactionListRow should render with loading props 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": false,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={false}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignSelf": "stretch",
+      "borderRadius": 16,
+      "marginBottom": 11,
+      "marginLeft": 11,
+      "marginRight": 11,
+      "marginTop": 11,
+      "opacity": 1,
+      "paddingBottom": 11,
+      "paddingLeft": 11,
+      "paddingRight": 11,
+      "paddingTop": 11,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "backgroundColor": "rgba(255, 255, 255, .1)",
+        "borderRadius": 16,
+        "bottom": 0,
+        "left": 0,
+        "overflow": "hidden",
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  />
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "flexGrow": 1,
+        "flexShrink": 1,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignContent": "center",
+          "justifyContent": "center",
+          "margin": 6,
+        }
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "rgba(232, 84, 102, .6)",
+              "paddingTop": 1,
+            },
+            {
+              "alignItems": "center",
+              "borderRadius": 28,
+              "elevation": 0,
+              "height": 45,
+              "justifyContent": "center",
+              "shadowColor": "#000000",
+              "shadowOffset": {
+                "height": 3,
+                "width": -3,
+              },
+              "shadowOpacity": 0.6,
+              "shadowRadius": 4,
+              "width": 45,
+            },
+          ]
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          selectable={false}
+          style={
+            [
+              {
+                "color": "#E84D65",
+                "fontSize": 28,
+              },
+              {
+                "shadowColor": "rgba(0, 0, 0, 0.7)",
+                "shadowOffset": {
+                  "height": 2,
+                  "width": -1,
+                },
+                "shadowOpacity": 0.7,
+                "shadowRadius": 1,
+                "textShadowColor": "rgba(0, 0, 0, 0.7)",
+                "textShadowOffset": {
+                  "height": 2,
+                  "width": -1,
+                },
+                "textShadowRadius": 1,
+              },
+              {
+                "fontFamily": "Ionicons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        [
+          {
+            "flexDirection": "column",
+            "flexGrow": 1,
+            "flexShrink": 1,
+          },
+          {
+            "marginBottom": 6,
+            "marginLeft": 6,
+            "marginRight": 6,
+            "marginTop": 6,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <Text
+          adjustsFontSizeToFit={true}
+          ellipsizeMode="tail"
+          minimumFontScale={0.65}
+          numberOfLines={1}
+          style={
+            [
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "Quicksand-Regular",
+                "fontSize": 22,
+                "includeFontPadding": false,
+              },
+              {
+                "alignSelf": "center",
+                "flexShrink": 1,
+                "fontFamily": "Quicksand-Medium",
+                "marginRight": 22,
+              },
+              null,
+            ]
+          }
+        >
+          Sent Bitcoin
+        </Text>
+        <Text
+          adjustsFontSizeToFit={true}
+          minimumFontScale={0.65}
+          numberOfLines={1}
+          style={
+            [
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "Quicksand-Regular",
+                "fontSize": 22,
+                "includeFontPadding": false,
+              },
+              {
+                "alignSelf": "center",
+                "flexShrink": 0,
+                "textAlign": "right",
+              },
+              null,
+            ]
+          }
+        >
+          -₿ 0.001
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <Text
+          adjustsFontSizeToFit={true}
+          ellipsizeMode="tail"
+          minimumFontScale={0.65}
+          numberOfLines={1}
+          style={
+            [
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "Quicksand-Regular",
+                "fontSize": 22,
+                "includeFontPadding": false,
+              },
+              {
+                "color": "#3dd9f4",
+                "flexShrink": 1,
+                "fontSize": 17,
+                "marginRight": 22,
+              },
+              null,
+            ]
+          }
+        >
+          1:33 PM
+        </Text>
+        <Text
+          adjustsFontSizeToFit={true}
+          minimumFontScale={0.65}
+          numberOfLines={1}
+          style={
+            [
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "Quicksand-Regular",
+                "fontSize": 22,
+                "includeFontPadding": false,
+              },
+              {
+                "color": "#3dd9f4",
+                "fontSize": 17,
+                "textAlign": "right",
+              },
+              null,
+            ]
+          }
+        >
+          $0.00
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <Text
+          adjustsFontSizeToFit={true}
+          ellipsizeMode="tail"
+          minimumFontScale={0.65}
+          numberOfLines={1}
+          style={
+            [
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "Quicksand-Regular",
+                "fontSize": 22,
+                "includeFontPadding": false,
+              },
+              [
+                {
+                  "color": "#3dd9f4",
+                  "flexShrink": 1,
+                  "fontSize": 17,
+                  "marginRight": 22,
+                },
+                {
+                  "color": "#F1AA19",
+                },
+              ],
+              null,
+            ]
+          }
+        >
+          Syncing...
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,36 @@
+# Priority: Critical
+# Test ID: C999000
+# Title: Navigate to tx details and verify Tile headers
+
+appId: ${MAESTRO_APP_ID}
+tags:
+- all
+- C999000
+---
+- runFlow:
+    file: ../common/launch-cleared.yaml
+- runFlow:
+    file: ../common/login-password.yaml
+    env:
+      USERNAME: ${MAESTRO_EDGE_TXDETAILS_USERNAME}
+      PASSWORD: ${MAESTRO_EDGE_TXDETAILS_PASSWORD}
+
+- extendedWaitUntil:
+    visible: My Bitcoin
+    timeout: 15000
+- tapOn: My Bitcoin
+- extendedWaitUntil:
+    visible: 0.00003462 BTC
+    timeout: 15000
+- tapOn: "Sent Bitcoin"
+
+- assertVisible: "Recipient Name"
+- assertVisible: "Bitcoin Amount"
+- assertVisible: "Amount in USD"
+- assertVisible: "Amount at Current Price"
+- assertVisible: "Category"
+- assertVisible: "Recipient Addresses"
+- assertVisible: "Notes"
+
+- stopApp
+

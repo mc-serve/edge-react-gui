@@ -1,0 +1,116 @@
+.tmp/
+.vscode/
+*.swp
+scratch.*
+temp/
+
+# Build & deployment files
+/android/app/google-services.json
+/android/google-java-format-*.jar
+/deploy-config.json
+/env.json
+/fastlane.json
+/ios/edge/GoogleService-Info.plist
+/ios/Pods/
+/release-version.json
+IDEWorkspaceChecks.plist
+android-release.bundle.map
+ios-release.bundle.map
+keystores/
+
+# Debugging
+overrideTheme.json
+
+# Code Coverage
+coverage/
+
+# Yaob bridge
+/src/controllers/edgeProvider/client/rolledUp.js
+/src/controllers/edgeProvider/injectThisInWebView.js
+
+# Edge core
+/android/app/src/main/assets/edge-core/
+/ios/edge-core/
+
+# Generated headers
+/android/app/src/main/java/co/edgesecure/app/EdgeApiKey.java
+/ios/EdgeApiKey.swift
+
+# Checkpoint jsons
+/android/app/src/main/assets/saplingtree/
+/android/app/src/main/assets/piratesaplingtree/
+
+# Maestro
+/maestro/env.js
+testerConfig.json
+
+# Files generated using `typechain`
+/src/plugins/contracts/
+
+# ----------------------------------------------------------------------
+# Everything below comes from React Native.
+# Do not edit this section except during React Native version upgrades.
+# ----------------------------------------------------------------------
+
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+ios/.xcode.env.local
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+*.iml
+*.hprof
+.cxx/
+*.keystore
+!debug.keystore
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
+
+# Bundle artifact
+*.jsbundle
+
+# Ruby / CocoaPods
+/ios/Pods/
+/vendor/bundle/
+
+# Temporary files created by Metro to check the health of the file watcher
+.metro-health-check*
