@@ -1,5 +1,8 @@
 #!/bin/bash
 
+sudo apt-get update
+sudo apt-get install -y openjdk-17-jdk wget unzip ninja-build libgtk-3-dev
+
 # 安装 Android SDK（命令行工具）
 mkdir -p $HOME/android-sdk
 cd $HOME/android-sdk
